@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="styler/shoeMen.css">
+  <link rel="stylesheet" href="styler/navigation.css">
+  <link rel="stylesheet" href="styler/support.css">
+</head>
+
+<body>
+<div style="position: fixed; z-index: 2;" class="container-fluid main-bg-color">
+  <div class="container">
+    <div style="font-size: 20px;" class="row">
+      <div class="col-md-9 flex-align-items-center dropdown">
+        <span class="navigation"><a href="index.html"><img style="width: 20px;" src="assets/logo.svg" alt="logo"></a></span>
+        <span class="navigation" id="shop"><a href="#">Cửa hàng</a></span>
+        <span class="navigation" id="shoe"><a href="#">Giày</a></span>
+        <span class="navigation"><a href="#">Dép</a></span>
+        <span class="navigation"><a href="#">Sản phẩm khuyến mãi</a></span>
+        <span class="navigation"><a href="#">Sản phẩm mới ra mắt</a></span>
+        <span class="navigation"><a href="#">Sản phẩm dành cho bé</a></span>
+        <span class="navigation"><a href="#">Hỗ trợ</a></span>
+      </div>
+      <div class="col-md-3 flex-align-items-center" style="justify-content: end;">
+        <span class="navigation"><a href="login.html">Log in</a></span>
+        <span class="navigation"><a href="logout.html">Log out</a></span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div style="z-index: 1;" class="container-fluid content-when-hover main-bg-color"></div>
+
+<div class="under-navigation"></div>
+
+<script src="script/navigation.js"></script>
+
+<div class="main" style="margin-top: 100px;">
+  <div class="container-fluid p-0">
+    <img src="assets/background/b2.png" class="img-fluid w-100" alt="background banner"/>
+  </div>
+  <div class="container text-center my-5 " >
+  <h1 class="fw-bold">Hỗ trợ</h1>
+  </div>
+  <div class="container text-center mb-5">
+    <div class="row justify-content-center">
+      <div class="col-6 col-md-2 my-3">
+        <img src="assets/shoeMens/adidas.png" class="img-fluid" alt="adidas">
+        <p>Adidas</p>
+      </div>
+      <div class="col-6 col-md-2 my-3">
+        <img src="assets/shoeMens/black.png" class="img-fluid" alt="Black">
+        <p>Black</p>
+      </div>
+      <div class="col-6 col-md-2 my-3">
+        <img src="assets/shoeMens/brown.png" class="img-fluid" alt="Brown">
+        <p>Brown</p>
+      </div>
+      <div class="col-6 col-md-2 my-3">
+        <img src="assets/shoeMens/cocao.png" class="img-fluid" alt="Cocao">
+        <p>Co cao</p>
+      </div>
+      <div class="col-6 col-md-2 my-3">
+        <img src="assets/shoeMens/nike.png" class="img-fluid" alt="Nike">
+        <p>Nike</p>
+      </div>
+
+      </div>
+    </div>
+  <!-- Các thẻ chức năng -->
+  <div class="container">
+    <div class="row g-3">
+      <div class="col-12 col-md-4">
+        <div class="card p-3 text-center">
+          <img src="assets/icon/1.svg" class="card-img-top mx-auto" alt="Quên mật khẩu" style="width: 60px; height: 60px;">
+          <div class="card-body">
+            <p class="card-text">Quên mật khẩu Tài khoản Silk Road</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-4">
+        <div class="card p-3 text-center">
+          <img src="assets/icon/2.svg" class="card-img-top mx-auto" alt="Dịch vụ sửa chữa" style = "width: 60px; height: 60px;">
+          <div class="card-body">
+            <p class="card-text">Dịch vụ sửa chữa của Silk Road</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-4">
+        <div class="card p-3 text-center">
+          <img src="assets/icon/3.svg" class="card-img-top mx-auto" alt="Thanh toán và đăng ký" style = "width: 60px; height: 60px;">
+          <div class="card-body">
+            <p class="card-text">Thanh toán và đăng ký</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <section class="search-section">
+      <div class="text-center my-5 search-heading">
+        <h2 class="fw-bold">Tìm kiếm các chủ đề khác</h2>
+      </div>
+      <div class="search-wrapper">
+        <div class="search-container">
+          <div class="search-input-group">
+            <i class="fas fa-search search-icon"></i>
+            <input
+              type="search"
+              class="search-input"
+              placeholder="Tìm kiếm hỗ trợ"
+              aria-label="Search"
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</div>
+</body>
+
+</html>
