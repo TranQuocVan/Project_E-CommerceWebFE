@@ -42,8 +42,8 @@
 <script src="script/navigation.js"></script>
 
 <div class="main" style="margin-top: 100px;">
-  <div class="container-fluid p-0">
-    <img src="assets/background/b2.png" class="img-fluid w-100" alt="background banner"/>
+  <div class="container-fluid p-0 banner-image">
+    <img src="assets/background/b2.png" class="img-fluid w-100 " alt="background banner"/>
   </div>
   <div class="container text-center my-5 " >
   <h1 class="fw-bold">Hỗ trợ</h1>
@@ -51,29 +51,28 @@
   <div class="container text-center mb-5">
     <div class="row justify-content-center">
       <div class="col-6 col-md-2 my-3">
-        <img src="assets/shoeMens/adidas.png" class="img-fluid" alt="adidas">
-        <p>Adidas</p>
+        <img src="assets/supportImages/image1.png" class="img-fluid" alt="tre em">
+        <p>Giày trẻ em</p>
       </div>
       <div class="col-6 col-md-2 my-3">
-        <img src="assets/shoeMens/black.png" class="img-fluid" alt="Black">
-        <p>Black</p>
+        <img src="assets/supportImages/image2.png" class="img-fluid" alt="the thao nam">
+        <p>Giày thể thao nam</p>
       </div>
       <div class="col-6 col-md-2 my-3">
-        <img src="assets/shoeMens/brown.png" class="img-fluid" alt="Brown">
-        <p>Brown</p>
+        <img src="assets/supportImages/image3.png" class="img-fluid" alt="cao got">
+        <p>Giày cao gót</p>
       </div>
       <div class="col-6 col-md-2 my-3">
-        <img src="assets/shoeMens/cocao.png" class="img-fluid" alt="Cocao">
-        <p>Co cao</p>
+        <img src="assets/supportImages/image4.png" class="img-fluid" alt="the thao nu">
+        <p>Giày thể thao nữ</p>
       </div>
       <div class="col-6 col-md-2 my-3">
-        <img src="assets/shoeMens/nike.png" class="img-fluid" alt="Nike">
-        <p>Nike</p>
+        <img src="assets/supportImages/image5.png" class="img-fluid" alt="bup be">
+        <p>Giày búp bê</p>
       </div>
 
       </div>
     </div>
-  <!-- Các thẻ chức năng -->
   <div class="container">
     <div class="row g-3">
       <div class="col-12 col-md-4">
@@ -102,26 +101,21 @@
       </div>
     </div>
   </div>
-  <div class="container">
-    <section class="search-section">
-      <div class="text-center my-5 search-heading">
-        <h2 class="fw-bold">Tìm kiếm các chủ đề khác</h2>
-      </div>
-      <div class="search-wrapper">
-        <div class="search-container">
-          <div class="search-input-group">
-            <i class="fas fa-search search-icon"></i>
-            <input
-              type="search"
-              class="search-input"
-              placeholder="Tìm kiếm hỗ trợ"
-              aria-label="Search"
-            >
-          </div>
+    <div class="row justify-content-center" style="padding-top: 70px;">
+      <div class="col-lg-10">
+        <div class="login-container text-center p-4 ">
+          <h2 id="titleLogin" class ="fw-bold">Tìm kiếm chủ đề khác </h2>
         </div>
+        <form id="supportForm">
+          <div id="inputName" class="input-container">
+            <input type="text" id="nameSupport" class="floating-input" placeholder=" " required>
+            <label class="floating-label">Tìm kiếm hỗ trợ</label>
+            <i class="fa-solid fa-magnifying-glass" style="color: #bababa;"></i>
+          </div>
+
+        </form>
       </div>
-    </section>
-  </div>
+    </div>
 </div>
 </body>
 

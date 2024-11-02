@@ -1,80 +1,68 @@
-.search-section {
-    max-width: 680px;
-    margin: 0 auto;
-    padding: 0 20px;
-  }
-  
-  .search-wrapper {
-    border-radius: 18px;
-    padding: 20px;
-  }
-  
-  .search-container {
-
-    width: 100%;
-  }
-  
-  .search-input-group {
-    position: relative;
-    margin-bottom: 20px;
-  }
-  
-  .search-icon {
-    position: absolute;
-    left: 15px;
-    top: 50%;
-    transform: translateY(-50%);
-    color: #86868b;
-    font-size: 14px;
-  }
-  
-  .search-input {
-    width: 100%;
-    padding: 12px 40px;
-    border-radius: 10px;
-    border: solid 1px #ddd;
-    background-color: white;
-    font-size: 17px;
-    line-height: 1.23536;
-    font-weight: 400;
-    box-shadow: 0 1px 0 rgba(0,0,0,0.05);
-    transition: all 0.3s;
-  }
-  
-  .search-input:focus {
-    outline: none;
-    box-shadow: 0 0 0 4px rgba(0,125,250,0.6);
-  }
-  
-  .quick-links {
-    margin-top: 20px;
-  }
-  
-  .quick-links h3 {
-    font-size: 12px;
-    color: #6e6e73;
-    margin-bottom: 10px;
-    font-weight: 600;
-  }
-  
-  .quick-links ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8px;
-  }
-  
-  .quick-links li a {
-    display: inline-block;
-    padding: 8px 16px;
-    background-color: white;
-    border-radius: 20px;
-    color: #06c;
-    text-decoration: none;
-    font-size: 14px;
-    transition: background-color 0.2s;
-  }
+#supportForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+}
 
 
+.login-container {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Input container styling */
+.input-container {
+  width: 100%;
+  max-width: 1200px;
+  position: relative;
+  margin: 0 auto 20px auto;
+  padding: 5px 10px;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+#inputName i {
+  position: absolute;
+  left: 15px;
+  color: #999;
+  font-size: 18px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.floating-input {
+  width: 100%;
+  padding: 12px 10px 12px 30px;
+  border: none;
+  font-size: 16px;
+  color: #333;
+  background: transparent;
+  outline: none;
+  line-height: 1.5;
+}
+
+.floating-label {
+  position: absolute;
+  top: 50%;
+  left: 40px;
+  color: #86868b;
+  font-size: 16px;
+  transition: 0.3s ease;
+  pointer-events: none;
+  transform: translateY(-50%);
+}
+
+.floating-input:focus ~ .floating-label,
+.floating-input:not(:placeholder-shown) ~ .floating-label {
+  top: 8px;
+  font-size: 13px;
+  color: #007bff;
+}
