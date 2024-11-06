@@ -1,13 +1,132 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Đăng nhập Silk Road</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <link rel="stylesheet" href="styler/login.css">
+    <link rel="stylesheet" href="styler/loginWithAuthCode.css">
+    <link rel="stylesheet" href="styler/navigation.css">
+    <link rel="stylesheet" href="styler/global.css">
+
 </head>
 
 <body>
+    <header>
+
+        <div style="position: fixed; z-index: 2;" class="container-fluid main-bg-color">
+            <div class="container">
+                <div style="font-size: 20px;" class="row">
+                    <div class="col-md-9 flex-align-items-center dropdown">
+                        <span class="navigation"><a href="index.html"><img style="width: 20px;" src="assets/logo.svg"
+                                    alt="logo"></a></span>
+                        <span class="navigation" id="shop"><a href="#">Cửa hàng</a></span>
+                        <span class="navigation" id="shoe"><a href="#">Giày</a></span>
+                        <span class="navigation"><a href="#">Dép</a></span>
+                        <span class="navigation"><a href="#">Sản phẩm khuyến mãi</a></span>
+                        <span class="navigation"><a href="#">Sản phẩm mới ra mắt</a></span>
+                        <span class="navigation"><a href="#">Sản phẩm dành cho bé</a></span>
+                    </div>
+                    <div class="col-md-3 flex-align-items-center" style="justify-content: end;">
+                        <span class="navigation"><a href="login.html">Log in</a></span>
+                        <span class="navigation"><a href="logout.html">Log out</a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="z-index: 1;" class="container-fluid content-when-hover main-bg-color"></div>
+
+        <div class="under-navigation">
+            <div style="padding-top: 70px;" class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <span class="titleHeader">Đăng nhập để thanh toán nhanh hơn.</span>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center" style="padding-top: 70px;">
+                <div class="col-md-6">
+                    <div class="login-container text-center p-4 ">
+                        <h1 id="titleLogin">Vui lòng nhập mã gửi qua gmail</h1>
+                        <form id="loginForm">
+
+                            <div id="inputName" class="input-container">
+                                <input type="text" id="nameLogin" class="floating-input" placeholder=" " required>
+                                <label for="name" class="floating-label">Vui lòng điền tài khoản của bạn</label>
+                            </div>
+                            <div style="display: none;" id="inputPass" class="input-container">
+                                <input type="text" id="password" class="floating-input" placeholder=" " required>
+                                <label for="password" class="floating-label">Vui lòng điền mật khẩu của bạn</label>
+
+                            </div>
+                            <button id="btnLogin" type="submit" class="btn btn-primary">
+                                Đăng nhập
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 header-footer">
+                    <span>
+                        ∆ Dịch vụ thương mại được cung cấp bởi các đối tác trao đổi của Apple. Báo giá giá trị trao đổi
+                        chỉ mang tính ước tính và giá trị thực tế có thể thấp hơn ước tính. Giá trị đổi cũ lấy mới sẽ
+                        khác nhau tùy theo tình trạng, năm và cấu hình của thiết bị đủ điều kiện đổi của bạn. Không phải
+                        tất cả các thiết bị đều đủ điều kiện nhận điểm tín dụng. Bạn phải ít nhất ở độ tuổi thành niên
+                        để đủ điều kiện giao dịch tín dụng. Giá trị đổi cũ lấy mới có thể sẽ được áp dụng cho thiết bị
+                        đủ điều kiện mới bạn mua. Ước tính giá trị thực tế được dựa trên việc có nhận được thiết bị đủ
+                        điều kiện khớp với thông tin bạn đã mô tả hay không. Thuế giá trị gia tăng (GTGT) có thể sẽ được
+                        tính trên toàn bộ giá trị của thiết bị mới bạn mua. Bạn phải xuất trình giấy tờ tùy thân hợp lệ
+                        (luật địa phương có thể yêu cầu lưu thông tin này). Các đối tác trao đổi của Apple có quyền từ
+                        chối, hủy bỏ hoặc giới hạn số lượng của bất kỳ giao dịch đổi cũ lấy mới nào vì bất kỳ lý do gì.
+                        Bạn có thể tìm hiểu thêm thông tin từ đối tác đổi cũ lấy mới của Apple về việc đổi cũ lấy mới và
+                        đối tác tái chế về việc tái chế các thiết bị đủ điều kiện. Các hạn chế và giới hạn có thể được
+                        áp dụng. Có thể sẽ áp dụng Điều khoản và giới hạn về việc tái chế thiết bị đủ điều kiện.
+                    </span>
+                </div>
+                <div class="content-footer">
+                    <div class="col-md-12" style="display: flex; align-items: center; justify-content: space-between;">
+                        <div>
+                            Bản quyền © Apple Inc. 2024 Bảo lưu mọi quyền.
+                        </div>
+                        <div>
+                            Việt Nam
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <span>
+                            Chính Sách Quyền Riêng Tư |
+                        </span>
+                        <span>
+                            Điều Khoản Sử Dụng |
+                        </span>
+                        <span>
+                            Bán Hàng và Hoàn Tiền |
+                        </span>
+                        <span>
+                            Pháp Lý |
+                        </span>
+                        <span>
+                            Bản đồ trang web
+                        </span>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+    <script src="script/navigation.js"></script>
+    <script src="script/login.js"></script>
 
 </body>
 
