@@ -74,3 +74,47 @@
     transition: top 0.3s ease;
     /* Smooth transition for the top property */
 }
+
+.links {
+    font-size: 15px;
+}
+
+#btnLogin {
+    padding: 10px 10px 10px 5px;
+    width: 70%;
+    display: none;
+    animation: btnLogin 1s;
+
+
+}
+
+#alterClick {
+    display: none;
+    animation: alterClick 3s;
+}
+
+@keyframes btnLogin {
+    from {
+        opacity: 0;
+        width: 0%;
+
+    }
+
+    to {
+        opacity: 1;
+        width: 70%;
+    }
+
+}
+
+@keyframes alterClick {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+
+    }
+
+}

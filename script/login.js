@@ -15,6 +15,8 @@ nameLogin.addEventListener('blur', () => {
 icon.addEventListener('click', () => {
     if (nameLogin.value != '') {
         inputPass.style.display = 'block';
+        document.querySelector("#btnLogin").style.display = 'block';
+        document.querySelector("#alterClick").style.display = 'block';
     }
 
 });
