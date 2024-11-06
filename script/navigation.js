@@ -99,23 +99,48 @@ document.querySelector('#shoe').addEventListener('mouseenter', () => {
     dropDown();
 });
 
+let setOpacity;
+let hoverDelay;
+let isHovering = false; // Track if currently hovering
+const dropdown = document.querySelector('.dropdown');
 
-document.querySelector('.dropdown').addEventListener('mouseenter', () => {
-    contentWhenHover.style.display = 'block';
-    contentWhenHover.style.animation = 'content-when-hover-animation 0.5s ease-in-out';
-    underNavigation.style.animation = 'opacity 0.5s ease-in-out';
-    setTimeout(() => {
-        underNavigation.style.opacity = 0.5, 450
-    });
+
+dropdown.addEventListener('mouseenter', () => {
+    // Clear any previous hover timeout and mark as hovering
+    clearTimeout(hoverDelay);
+    isHovering = true;
+
+    // Set a delay of 10ms before displaying contentWhenHover
+    hoverDelay = setTimeout(() => {
+        if (isHovering) {
+            contentWhenHover.style.display = 'block';
+            contentWhenHover.style.animation = 'content-when-hover-animation 0.5s ease-in-out';
+            underNavigation.style.animation = 'opacity 0.5s ease-in-out';
+
+            // Apply opacity after animation begins
+            setOpacity = setTimeout(() => {
+                underNavigation.style.opacity = 0.5;
+            }, 500);
+        }
+    }, 10);
 });
 
-document.querySelector(' .content-when-hover').addEventListener('mouseleave', function () {
-    contentWhenHover.style.animation = 'content-when-endHover-animation 0.3s ease-in-out ';
-    document.querySelector('.under-navigation').style.animation = 'endOpacity 0.3s ease-in-out ';
+dropdown.addEventListener('mouseleave', () => {
+    // Clear timeouts and mark as not hovering
+    clearTimeout(hoverDelay);
+    clearTimeout(setOpacity);
+    isHovering = false;
+
+    // Hide contentWhenHover immediately if it’s visible
+    contentWhenHover.style.animation = 'content-when-endHover-animation 0.3s ease-in-out';
+    underNavigation.style.animation = 'endOpacity 0.3s ease-in-out';
+
+    // Ensure display is set to 'none' after the end animation
     setTimeout(() => {
-        contentWhenHover.style.display = 'none';
-        document.querySelector('.under-navigation').style.opacity = 1;
-        flag = false;
+        if (!isHovering) {
+            contentWhenHover.style.display = 'none';
+            underNavigation.style.opacity = 1;
+        }
     }, 300);
-}
-);
+});
+
