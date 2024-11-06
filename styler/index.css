@@ -1,0 +1,29 @@
+.slider .form .item.support {
+    box-shadow: 0px 0px 10px 1px #c3c2c2;
+    border-radius: 25px;
+    width: 400px !important;
+    height: 400px !important;
+    border-radius: 10px;
+
+
+}
+
+#bestSeller {
+    display: flex;
+    align-items: center;
+    padding: 100px 0;
+}
+
+#bestSeller .col-md-12 {
+    display: flex;
+    align-items: center;
+}
+
+#bestSeller img {
+    max-height: 80px;
+    object-fit: cover;
+}
+
+#bestSeller .col-md-12 div {
+    margin-right: 20px;
+}
