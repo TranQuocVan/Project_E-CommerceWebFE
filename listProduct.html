@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <link rel="stylesheet" href="styler/navigation.css">
+    <link rel="stylesheet" href="styler/global.css">
+    <link rel="stylesheet" href="styler/listProduct.css">
+</head>
+
+<body>
+    <header>
+        <div style="position: fixed; z-index: 2;" class="container-fluid main-bg-color">
+            <div class="container">
+                <div style="font-size: 20px;" class="row">
+                    <div class="col-md-9 flex-align-items-center dropdown">
+                        <span class="navigation"><a href="index.html"><img style="width: 20px;" src="assets/logo.svg"
+                                    alt="logo"></a></span>
+                        <span class="navigation" id="shop"><a href="#">Cửa hàng</a></span>
+                        <span class="navigation" id="shoe"><a href="#">Giày</a></span>
+                        <span class="navigation"><a href="#">Dép</a></span>
+                        <span class="navigation"><a href="#">Sản phẩm khuyến mãi</a></span>
+                        <span class="navigation"><a href="#">Sản phẩm mới ra mắt</a></span>
+                        <span class="navigation"><a href="#">Sản phẩm dành cho bé</a></span>
+                    </div>
+                    <div class="col-md-3 flex-align-items-center" style="justify-content: end;">
+                        <span class="navigation"><a href="login.html">Log in</a></span>
+                        <span class="navigation"><a href="logout.html">Log out</a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="z-index: 1;" class="container-fluid content-when-hover main-bg-color"></div>
+        <div class="under-navigation">
+            <div class="container">
+                <div class="row"></div>
+                <div style="padding-top: 50px;" class="col-md-3">
+                    <div id="filter">
+                        <form action="">
+                            <div class="typeGoods">
+                                <p>Nhóm sản phẩm</p>
+                                <input type="radio" id="html" name="products" value="HTML">
+                                <label for="Giày Nam">Giày Nam</label><br>
+                                <input type="radio" id="css" name="products" value="CSS">
+                                <label for="Giày Nữ">Giày Nữ</label><br>
+                                <input type="radio" id="javascript" name="products" value="JavaScript">
+                                <label for="Giày Trẻ Em">Giày Trẻ Em</label>
+                            </div>
+
+                            <p style="margin-top: 20px;">Kích cỡ</p>
+                            <div id="size">
+                                <button>XS</button>
+                                <button>S</button>
+                                <button>M</button>
+
+                                <button>L</button>
+                                <button>XL</button>
+                                <button>2XL</button>
+
+                                <button>3XL</button>
+                                <button>4XL</button>
+                            </div>
+                            <p style="margin-top: 20px;">Màu sắc</p>
+                            <div id="color">
+                                <div>
+                                    <button style="background-color: red;"></button>
+                                    <p>Đỏ</p>
+                                </div>
+                                <div>
+                                    <button style="background-color: blue;"></button>
+                                    <p>Xanh</p>
+                                </div>
+                                <div>
+                                    <button style="background-color: yellow;"></button>
+                                    <p>Vàng</p>
+                                </div>
+                                <div>
+                                    <button style="background-color: green;"></button>
+                                    <p>Xanh lá</p>
+                                </div>
+                                <div>
+                                    <button style="background-color: black;"></button>
+                                    <p>Đen</p>
+                                </div>
+                                <div>
+                                    <button style="background-color: white;"></button>
+                                    <p>Trắng</p>
+                                </div>
+
+                            </div>
+
+
+
+                        </form>
+                    </div>
+                </div>
+                <div class="col-md-9">
+
+                </div>
+            </div>
+        </div>
+    </header>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 header-footer">
+                    <span>
+                        ∆ Dịch vụ thương mại được cung cấp bởi các đối tác trao đổi của Apple. Báo giá giá trị trao đổi
+                        chỉ mang tính ước tính và giá trị thực tế có thể thấp hơn ước tính. Giá trị đổi cũ lấy mới sẽ
+                        khác nhau tùy theo tình trạng, năm và cấu hình của thiết bị đủ điều kiện đổi của bạn. Không phải
+                        tất cả các thiết bị đều đủ điều kiện nhận điểm tín dụng. Bạn phải ít nhất ở độ tuổi thành niên
+                        để đủ điều kiện giao dịch tín dụng. Giá trị đổi cũ lấy mới có thể sẽ được áp dụng cho thiết bị
+                        đủ điều kiện mới bạn mua. Ước tính giá trị thực tế được dựa trên việc có nhận được thiết bị đủ
+                        điều kiện khớp với thông tin bạn đã mô tả hay không. Thuế giá trị gia tăng (GTGT) có thể sẽ được
+                        tính trên toàn bộ giá trị của thiết bị mới bạn mua. Bạn phải xuất trình giấy tờ tùy thân hợp lệ
+                        (luật địa phương có thể yêu cầu lưu thông tin này). Các đối tác trao đổi của Apple có quyền từ
+                        chối, hủy bỏ hoặc giới hạn số lượng của bất kỳ giao dịch đổi cũ lấy mới nào vì bất kỳ lý do gì.
+                        Bạn có thể tìm hiểu thêm thông tin từ đối tác đổi cũ lấy mới của Apple về việc đổi cũ lấy mới và
+                        đối tác tái chế về việc tái chế các thiết bị đủ điều kiện. Các hạn chế và giới hạn có thể được
+                        áp dụng. Có thể sẽ áp dụng Điều khoản và giới hạn về việc tái chế thiết bị đủ điều kiện.
+                    </span>
+                </div>
+                <div style="width: 100%;" class="col-md-12 ">
+                    <div class="content-footer"
+                        style="display: flex; align-items: center; justify-content: space-between;">
+                        <div>
+                            Bản quyền © Apple Inc. 2024 Bảo lưu mọi quyền.
+                        </div>
+                        <div>
+                            Việt Nam
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <span>
+                        Chính Sách Quyền Riêng Tư |
+                    </span>
+                    <span>
+                        Điều Khoản Sử Dụng |
+                    </span>
+                    <span>
+                        Bán Hàng và Hoàn Tiền |
+                    </span>
+                    <span>
+                        Pháp Lý |
+                    </span>
+                    <span>
+                        Bản đồ trang web
+                    </span>
+
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+</body>
+<script src="script/navigation.js"></script>
+
+</html>
