@@ -19,10 +19,10 @@ footer {
 }
 
 .header-footer {
-    padding: 12px;
     border-bottom: 1px solid #e0e0e0;
+    padding: 15px ;
 }
 
 .content-footer {
-    padding: 12px;
+    padding: 12px 0;
 }

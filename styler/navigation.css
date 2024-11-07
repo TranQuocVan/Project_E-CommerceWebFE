@@ -119,3 +119,12 @@ body {
     letter-spacing: -.003em;
     line-height: 1.0834933333;
 }
+
+
+@media (max-width: 991px) {
+    #list-page {
+        display: none;
+    }
+
+
+}

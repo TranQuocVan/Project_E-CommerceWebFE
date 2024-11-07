@@ -1,41 +1,50 @@
-const slider = document.querySelector(".slider");
-const form = document.querySelector(".form");
 
-let left = 0;
-let leftLimit = 0;
+const offsetWidthSlide = document.getElementById('slide').offsetWidth;
+const offsetWidthItem = document.querySelectorAll('.item')[0].offsetWidth;
+const itemMargin = 20;
+const remainingPhotos = document.querySelectorAll('#slide .item').length - Math.floor((offsetWidthSlide + itemMargin) / (offsetWidthItem + itemMargin));
+console.log(document.querySelectorAll('.item').length)
+console.log(Math.floor((offsetWidthSlide + itemMargin) / (offsetWidthItem + itemMargin)))
+console.log(remainingPhotos);
+const btnNext = document.getElementById('next');
+const btnPrev = document.getElementById('prev');
 
-
-let count = 0;
+let current = remainingPhotos;
 const items = document.querySelectorAll('.item');
-const itemWidth = items[0].offsetWidth;
-const itemLength = items.length;
-const numberImagesOnTheScreen = Math.floor(slider.offsetWidth / itemWidth);
-const maxClick = itemLength - numberImagesOnTheScreen - 1;
-const content = document.querySelector('.content').offsetWidth + 20;
-document.querySelector('#left').onclick = () => {
-    count++;
-    leftLimit += content;
-    form.style.setProperty('--left', `${leftLimit}px`);
+let currentPosition = 0;
 
-    if (count == 0) {
-        document.querySelector('#left').style.display = 'none';
-    }
-    document.querySelector('#right').style.display = 'inline-block';
+function updatePositions() {
+    let position = currentPosition;
+    items.forEach((item) => {
+        item.style.left = `${position}px`;
+        position += offsetWidthItem + itemMargin;
+
+    });
 }
-document.querySelector('#right').onclick = () => {
-    // if (leftLimit == 0) {
-    //     document.querySelector('#scroll').classList.remove("container");
-    // // };
-    // setTimeout(() => {
-    //     leftLimit -= content.offsetWidth;
-    //     form.style.setProperty('--left', `${leftLimit}px`);
-    // }, 100);
-    leftLimit -= content;
-    count--;
-    form.style.setProperty('--left', `${leftLimit}px`);
 
-    document.querySelector('#left').style.display = 'inline-block';
-    if (count <= -maxClick) {
-        document.querySelector('#right').style.display = 'none';
+document.getElementById('next').onclick = function () {
+    current--;
+    btnPrev.style.display = 'block';
+    currentPosition -= (offsetWidthItem + itemMargin); // Move left by 220px
+
+    updatePositions();
+
+    if (current == 0) {
+        btnNext.style.display = 'none';
     }
-};
+
+}
+
+document.getElementById('prev').onclick = function () {
+    current++;
+    btnNext.style.display = 'block';
+
+    currentPosition += (offsetWidthItem + itemMargin); // Move right by 220px
+    updatePositions();
+    if (current == remainingPhotos) {
+        btnPrev.style.display = 'none';
+    }
+
+}
+
+updatePositions();

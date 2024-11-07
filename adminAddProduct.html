@@ -4,27 +4,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Men's Sports</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-
-    <link rel="stylesheet" href="styler/navigation.css">
-    <link rel="stylesheet" href="styler/men'sSportsShoes.css">
+    <title>Thêm Sản Phẩm - Quản Trị</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="styler/global.css">
+    <link rel="stylesheet" href="styler/navigation.css">
+    <style>
+        .form-group {
+            margin-bottom: 15px;
+        }
 
+        .preview-img {
+            margin-right: 10px;
+            max-width: 400px;
+            height: 300px;
+            object-fit: cover;
+        }
+    </style>
 </head>
 
 <body>
     <header>
-
-        <div style="position: fixed; z-index: 2;" class="container-fluid main-bg-color mb-5 ">
+        <div style="position: fixed; z-index: 2;" class="container-fluid main-bg-color">
             <div class="container">
-
                 <div style="font-size: 20px;" class="row">
                     <div class="col-md-9 flex-align-items-center dropdown">
                         <span class="navigation"><a href="index.html"><img style="width: 20px;" src="assets/logo.svg"
@@ -35,7 +36,6 @@
                         <span class="navigation"><a href="#">Sản phẩm khuyến mãi</a></span>
                         <span class="navigation"><a href="#">Sản phẩm mới ra mắt</a></span>
                         <span class="navigation"><a href="#">Sản phẩm dành cho bé</a></span>
-
                     </div>
                     <div class="col-md-3 flex-align-items-center" style="justify-content: end;">
                         <span class="navigation"><a href="login.html">Log in</a></span>
@@ -46,83 +46,41 @@
         </div>
         <div style="z-index: 1;" class="container-fluid content-when-hover main-bg-color"></div>
         <div class="under-navigation">
-
-            <div class="container-fluid mt-5 text-center header">
-                <div class="row justify-content-center">
-                    <div class="col-6 col-md-1 my-3">
-                        <img src="assets/supportImages/image1.png" class="img-fluid" alt="tre em">
-                        <p>Giày trẻ em</p>
+            <div class="container">
+                <h1 class="mt-5">Thêm Sản Phẩm</h1>
+                <form id="productForm">
+                    <div class="form-group">
+                        <label for="productName">Tên sản phẩm:</label>
+                        <input type="text" class="form-control" id="productName" name="productName" required>
                     </div>
-                    <div class="col-6 col-md-1 my-3">
-                        <img src="assets/supportImages/image2.png" class="img-fluid" alt="the thao nam">
-                        <p>Giày thể thao nam</p>
+                    <div class="form-group">
+                        <label for="productCategory">Loại hàng:</label>
+                        <input type="text" class="form-control" id="productCategory" name="productCategory" required>
                     </div>
-                    <div class="col-6 col-md-1 my-3">
-                        <img src="assets/supportImages/image3.png" class="img-fluid" alt="cao got">
-                        <p>Giày cao gót</p>
+                    <div class="form-group">
+                        <label for="productImages">Ảnh sản phẩm:</label>
+                        <input type="file" class="form-control-file" id="productImages" name="productImages" multiple
+                            required>
+                        <div id="imagePreview" class="mt-2"></div>
                     </div>
-                    <div class="col-6 col-md-1 my-3">
-                        <img src="assets/supportImages/image4.png" class="img-fluid" alt="the thao nu">
-                        <p>Giày thể thao nữ</p>
-                    </div>
-                    <div class="col-6 col-md-1 my-3">
-                        <img src="assets/supportImages/image5.png" class="img-fluid" alt="bup be">
-                        <p>Giày búp bê</p>
-                    </div>
-                    <div class="col-6 col-md-1 my-3">
-                        <img src="assets/supportImages/image1.png" class="img-fluid" alt="tre em">
-                        <p>Giày trẻ em</p>
-                    </div>
-                    <div class="col-6 col-md-1 my-3">
-                        <img src="assets/supportImages/image2.png" class="img-fluid" alt="the thao nam">
-                        <p>Giày thể thao nam</p>
-                    </div>
-                    <div class="col-6 col-md-1 my-3">
-                        <img src="assets/supportImages/image3.png" class="img-fluid" alt="cao got">
-                        <p>Giày cao gót</p>
-                    </div>
-                    <div class="col-6 col-md-1 my-3">
-                        <img src="assets/supportImages/image4.png" class="img-fluid" alt="the thao nu">
-                        <p>Giày thể thao nữ</p>
-                    </div>
-                    <div class="col-6 col-md-1 my-3">
-                        <img src="assets/supportImages/image5.png" class="img-fluid" alt="bup be">
-                        <p>Giày búp bê</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="container-fluid mt-5 text-center content">
-                <div class="title d-flex justify-content-between">
-                    <div class=" mx-5 fw-bold text-xl-start text-first"><a style=>Giày thể thao nam</a></div>
-                    <div class="mx-5 fw-bold text-xl-start text-second ">
-                        <a>phong cách năng động <br> cho nam giới ngày nay</a>
-                    </div>
-                </div>
-                <div class=" video container-fluid mt-5 text-center">
-                    <div class="row justify-content-center">
-                        <div class="col-12 col-md-8 col-lg-6">
-                            <div class="video-container">
-                                <video id="videoElement" autoplay muted loop class="w-100 h-auto">
-                                    <source src="/assets/video/shoe_men/1.mp4" type="video/mp4">
-                                </video>
-
-
-                            </div>
+                    <div id="sizesContainer">
+                        <div class="form-group size-group">
+                            <label>Size:</label>
+                            <input type="text" class="form-control d-inline-block w-25" name="sizes[]" required>
+                            <label>Số lượng:</label>
+                            <input type="number" class="form-control d-inline-block w-25" name="quantities[]" required>
+                            <button type="button" class="btn btn-danger" onclick="removeSize(this)">Xóa</button>
                         </div>
                     </div>
-                </div>
-            </div>
+                    <button type="button" class="btn btn-primary" onclick="addSize()">Thêm Size</button>
+                    <div class="form-group mt-3">
+                        <button type="submit" class="btn btn-success">Thêm Sản Phẩm</button>
+                    </div>
+                </form>
 
-            <div class="container mt-5 text-center introduce">
-                <div class="title d-flex justify-content-between">
-                    <div class=" fw-bold text-xl-start text-first"><a>Tìm hiểu về giày thể thao nam.</a></div>
-                </div>
             </div>
         </div>
     </header>
-
-
     <footer>
         <div class="container">
             <div class="row">
@@ -177,10 +135,53 @@
         </div>
     </footer>
 
+    <script>
+        function addSize() {
+            const sizesContainer = document.getElementById('sizesContainer');
+            const sizeGroup = document.createElement('div');
+            sizeGroup.className = 'form-group size-group';
+            sizeGroup.innerHTML = `
+                <label>Size:</label>
+                <input type="text" class="form-control d-inline-block w-25" name="sizes[]" required>
+                <label>Số lượng:</label>
+                <input type="number" class="form-control d-inline-block w-25" name="quantities[]" required>
+                <button type="button" class="btn btn-danger" onclick="removeSize(this)">Xóa</button>
+            `;
+            sizesContainer.appendChild(sizeGroup);
+        }
 
-    <script src="script/navigation.js"> </script>
-    <script src="script/men'sSportsShoe.js"></script>
+        function removeSize(button) {
+            const sizeGroup = button.parentElement;
+            sizeGroup.remove();
+        }
 
+        document.getElementById('productImages').addEventListener('change', function (event) {
+            const imagePreview = document.getElementById('imagePreview');
+            imagePreview.innerHTML = '';
+            const files = event.target.files;
+            for (let i = 0; i < files.length; i++) {
+                const file = files[i];
+                const reader = new FileReader();
+                reader.onload = function (e) {
+                    const img = document.createElement('img');
+                    img.src = e.target.result;
+                    img.className = 'preview-img';
+                    imagePreview.appendChild(img);
+                }
+                reader.readAsDataURL(file);
+            }
+        });
+
+        document.getElementById('productForm').addEventListener('submit', function (event) {
+            event.preventDefault();
+            // Xử lý dữ liệu form ở đây
+            alert('Sản phẩm đã được thêm!');
+        });
+    </script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script/navigation.js"></script>
 </body>
 
 </html>

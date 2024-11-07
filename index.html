@@ -26,12 +26,14 @@
                     <div class="col-md-9 flex-align-items-center dropdown">
                         <span class="navigation"><a href="index.html"><img style="width: 20px;" src="assets/logo.svg"
                                     alt="logo"></a></span>
-                        <span class="navigation" id="shop"><a href="#">Cửa hàng</a></span>
-                        <span class="navigation" id="shoe"><a href="#">Giày</a></span>
-                        <span class="navigation"><a href="#">Dép</a></span>
-                        <span class="navigation"><a href="#">Sản phẩm khuyến mãi</a></span>
-                        <span class="navigation"><a href="#">Sản phẩm mới ra mắt</a></span>
-                        <span class="navigation"><a href="#">Sản phẩm dành cho bé</a></span>
+                        <div id="list-page" class="flex-align-items-center dropdown">
+                            <span class="navigation" id="shop"><a href="#">Cửa hàng</a></span>
+                            <span class="navigation" id="shoe"><a href="#">Giày</a></span>
+                            <span class="navigation"><a href="#">Dép</a></span>
+                            <span class="navigation"><a href="#">Sản phẩm khuyến mãi</a></span>
+                            <span class="navigation"><a href="#">Sản phẩm mới ra mắt</a></span>
+                            <span class="navigation"><a href="#">Sản phẩm dành cho bé</a></span>
+                        </div>
                     </div>
                     <div class="col-md-3 flex-align-items-center" style="justify-content: end;">
                         <span class="navigation"><a href="login.html">Log in</a></span>
@@ -52,163 +54,110 @@
                     </div>
                 </div>
             </div>
-            <div id="bestSeller" class="container">
+            <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <div class="">
-                            <img src="assets/bestSellerHome/image1.png" alt="">
-                            <p>
-                                Giày thể thao nam
-                            </p>
-                        </div>
-                        <div class="">
-                            <img src="assets/bestSellerHome/image2.png" alt="">
-                            <p>
-                                Giày thể thao nữ
-                            </p>
-                        </div>
-                        <div class="">
-                            <img src="assets/bestSellerHome/image3.png" alt="">
-                            <p>
-                                Giày cao gót
-                            </p>
-                        </div>
-                        <div class="">
-                            <img src="assets/bestSellerHome/image4.png" alt="">
-                            <p>
-                                Giày búp bê
-                            </p>
-                        </div>
-                        <div class="">
-                            <img src="assets/bestSellerHome/image5.png" alt="">
-                            <p>
-                                Giày thể thao trẻ em
-                            </p>
+                        <div id="best-sale">
+                            <div class="best-saler-item">
+
+                            </div>
+                            <div class="best-saler-item">
+                                <img src="assets/bestSellerHome/image2.png" alt="">
+                                <span>
+                                    Giày thể thao
+                                </span>
+                            </div>
+                            <div class="best-saler-item">
+                                <img src="assets/bestSellerHome/image3.png" alt="">
+                                <span>
+                                    Giày cao gót
+                                </span>
+                            </div>
+                            <div class="best-saler-item">
+                                <img src="assets/bestSellerHome/image4.png" alt="">
+                                <span>
+                                    Giày cao gót đắt tiền
+                                </span>
+                            </div>
+                            <div class="best-saler-item">
+                                <img src="assets/bestSellerHome/image5.png" alt="">
+                                <span>
+                                    Giày đi họ
+                                </span>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div id="scroll" style="position: relative;" class="container">
+            <div style="padding-top: 70px;" class="container-fluid">
                 <div class="row">
                     <div class="col-md-12">
-                        <div class="slider">
-                            <div class="form">
-                                <div class="item">
-                                    <div class="content">
-                                        <img src="assets/homeImages/1.jpg" alt="">
-                                        <div class="des">
-                                            <div>
-                                                Image Name
-                                            </div>
-                                            <button>more</button>
-                                        </div>
-                                    </div>
-                                </div>
+                        <div id="slide">
+                            <div class="item">
+                                <img src="assets/homeImages/1.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="assets/homeImages/2.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="assets/homeImages/3.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="assets/homeImages/4.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="assets/homeImages/5.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="assets/homeImages/6.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="assets/homeImages/1.jpg" alt="">
+                            </div>
 
-                                <div class="item">
-                                    <div class="content">
-                                        <img src="assets/homeImages/2.jpg" alt="">
-                                        <div class="des">
-                                            <div>
-                                                Image Name
-                                            </div>
-                                            <button>more</button>
-                                        </div>
-                                    </div>
-                                </div>
+                            <button class="btnSlide" id="next">
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </button>
+                            <button class="btnSlide" style="display: none;" id="prev">
+                                <i class="fa-solid fa-chevron-left"></i>
+                            </button>
 
-                                <div class="item">
-                                    <div class="content">
-                                        <img src="assets/homeImages/3.jpg" alt="">
-                                        <div class="des">
-                                            <div>
-                                                Image Name
-                                            </div>
-                                            <button>more</button>
-                                        </div>
-                                    </div>
-                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-                                <div class="item">
-                                    <div class="content">
-                                        <img src="assets/homeImages/4.jpg" alt="">
-                                        <div class="des">
-                                            <div>
-                                                Image Name
-                                            </div>
-                                            <button>more</button>
-                                        </div>
-                                    </div>
-                                </div>
+            <div class="container">
+                <div class="row">
+                    <div id="scroll" style="position: relative;  margin-top: 70px;" class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h3 style="font-weight: 700; padding: 0 10px;">Hỗ trợ tại đây.
+                                    <span style="color: #6e6e73;">Ngay khi bạn muốn,
+                                        mọi việc bạn cần.</span>
+                                </h3>
 
-                                <div class="item">
-                                    <div class="content">
-                                        <img src="assets/homeImages/5.jpg" alt="">
-                                        <div class="des">
-                                            <div>
-                                                Image Name
-                                            </div>
-                                            <button>more</button>
-                                        </div>
-                                    </div>
-                                </div>
+                                <div style="padding-top: 10px;" class="slider">
 
-                                <div class="item">
-                                    <div class="content">
-                                        <img src="assets/homeImages/6.jpg" alt="">
-                                        <div class="des">
-                                            <div>
-                                                Image Name
+                                    <div class="form">
+                                        <div class="item support">
+                                            <div class="content ">
+                                                <div style="position: absolute; top: 5%; font-size: 28px;font-weight: 700; left: 50%; transform: translateX(-50%); width: 90%;"
+                                                    class="header">
+                                                    <p>Dịch vụ và hỗ trợ. Chúng tôi luôn sẵn sàng hỗ trợ.</p>
+                                                </div>
+                                                <img src="assets/supporImgs/store-card-50-genius-202108.jpg" alt="">
                                             </div>
-                                            <button>more</button>
                                         </div>
-                                    </div>
-                                </div>
-
-                                <div class="item">
-                                    <div class="content">
-                                        <img src="assets/homeImages/7.jpg" alt="">
-                                        <div class="des">
-                                            <div>
-                                                Image Name
+                                        <div class="item support">
+                                            <div class="content ">
+                                                <div style="position: absolute; top: 10%; font-size: 28px;font-weight: 700; left: 50%; transform: translateX(-50%); width: 90%;"
+                                                    class="header">
+                                                    <p>Mua hàng với tư vấn trực tiếp từ Chuyên Gia trực tuyến. </p>
+                                                </div>
+                                                <img src="assets/supporImgs/store-card-50-specialist-help-202309.jpg"
+                                                    alt="">
                                             </div>
-                                            <button>more</button>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="item">
-                                    <div class="content">
-                                        <img src="assets/homeImages/8.jpg" alt="">
-                                        <div class="des">
-                                            <div>
-                                                Image Name
-                                            </div>
-                                            <button>more</button>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="item">
-                                    <div class="content">
-                                        <img src="assets/homeImages/9.jpg" alt="">
-                                        <div class="des">
-                                            <div>
-                                                Image Name
-                                            </div>
-                                            <button>more</button>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="item">
-                                    <div class="content">
-                                        <img src="assets/homeImages/10.jpg" alt="">
-                                        <div class="des">
-                                            <div>
-                                                Image Name
-                                            </div>
-                                            <button>more</button>
                                         </div>
                                     </div>
                                 </div>
@@ -216,86 +165,33 @@
                         </div>
                     </div>
                 </div>
-                <div id="btn-scroll" class="col-md-12">
-                    <button id="left">
-                        <i class="fa-solid fa-angle-left"></i>
-                    </button>
-                    <button id="right">
-                        <i class="fa-solid fa-angle-right"></i>
-                    </button>
-                </div>
             </div>
-
-            <div id="scroll" style="position: relative;  margin-top: 70px;" class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <h3 style="font-weight: 700; padding: 0 10px;">Hỗ trợ tại đây.
-                            <span style="color: #6e6e73;">Ngay khi bạn muốn,
-                                mọi việc bạn cần.</span>
-                        </h3>
-                        <div class="slider">
-
-                            <div class="form">
-                                <div class="item support">
-                                    <div class="content ">
-                                        <div style="position: absolute; top: 5%; font-size: 28px;font-weight: 700; left: 50%; transform: translateX(-50%); width: 90%;"
-                                            class="header">
-                                            <p>Dịch vụ và hỗ trợ. Chúng tôi luôn sẵn sàng hỗ trợ.</p>
-                                        </div>
-                                        <img src="assets/supporImgs/store-card-50-genius-202108.jpg" alt="">
-                                    </div>
-                                </div>
-                                <div class="item support">
-                                    <div class="content ">
-                                        <div style="position: absolute; top: 10%; font-size: 28px;font-weight: 700; left: 50%; transform: translateX(-50%); width: 90%;"
-                                            class="header">
-                                            <p>Mua hàng với tư vấn trực tiếp từ Chuyên Gia trực tuyến. </p>
-                                        </div>
-                                        <img src="assets/supporImgs/store-card-50-specialist-help-202309.jpg" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        </div>
     </header>
-
 
     <footer>
         <div class="container">
             <div class="row">
                 <div class="col-md-12 header-footer">
                     <span>
-                        ∆ Dịch vụ thương mại được cung cấp bởi các đối tác trao đổi của Apple. Báo giá giá trị trao
-                        đổi
-                        chỉ mang tính ước tính và giá trị thực tế có thể thấp hơn ước tính. Giá trị đổi cũ lấy mới
-                        sẽ
-                        khác nhau tùy theo tình trạng, năm và cấu hình của thiết bị đủ điều kiện đổi của bạn. Không
-                        phải
-                        tất cả các thiết bị đều đủ điều kiện nhận điểm tín dụng. Bạn phải ít nhất ở độ tuổi thành
-                        niên
-                        để đủ điều kiện giao dịch tín dụng. Giá trị đổi cũ lấy mới có thể sẽ được áp dụng cho thiết
-                        bị
-                        đủ điều kiện mới bạn mua. Ước tính giá trị thực tế được dựa trên việc có nhận được thiết bị
-                        đủ
-                        điều kiện khớp với thông tin bạn đã mô tả hay không. Thuế giá trị gia tăng (GTGT) có thể sẽ
-                        được
-                        tính trên toàn bộ giá trị của thiết bị mới bạn mua. Bạn phải xuất trình giấy tờ tùy thân hợp
-                        lệ
-                        (luật địa phương có thể yêu cầu lưu thông tin này). Các đối tác trao đổi của Apple có quyền
-                        từ
-                        chối, hủy bỏ hoặc giới hạn số lượng của bất kỳ giao dịch đổi cũ lấy mới nào vì bất kỳ lý do
-                        gì.
-                        Bạn có thể tìm hiểu thêm thông tin từ đối tác đổi cũ lấy mới của Apple về việc đổi cũ lấy
-                        mới và
-                        đối tác tái chế về việc tái chế các thiết bị đủ điều kiện. Các hạn chế và giới hạn có thể
-                        được
+                        ∆ Dịch vụ thương mại được cung cấp bởi các đối tác trao đổi của Apple. Báo giá giá trị trao đổi
+                        chỉ mang tính ước tính và giá trị thực tế có thể thấp hơn ước tính. Giá trị đổi cũ lấy mới sẽ
+                        khác nhau tùy theo tình trạng, năm và cấu hình của thiết bị đủ điều kiện đổi của bạn. Không phải
+                        tất cả các thiết bị đều đủ điều kiện nhận điểm tín dụng. Bạn phải ít nhất ở độ tuổi thành niên
+                        để đủ điều kiện giao dịch tín dụng. Giá trị đổi cũ lấy mới có thể sẽ được áp dụng cho thiết bị
+                        đủ điều kiện mới bạn mua. Ước tính giá trị thực tế được dựa trên việc có nhận được thiết bị đủ
+                        điều kiện khớp với thông tin bạn đã mô tả hay không. Thuế giá trị gia tăng (GTGT) có thể sẽ được
+                        tính trên toàn bộ giá trị của thiết bị mới bạn mua. Bạn phải xuất trình giấy tờ tùy thân hợp lệ
+                        (luật địa phương có thể yêu cầu lưu thông tin này). Các đối tác trao đổi của Apple có quyền từ
+                        chối, hủy bỏ hoặc giới hạn số lượng của bất kỳ giao dịch đổi cũ lấy mới nào vì bất kỳ lý do gì.
+                        Bạn có thể tìm hiểu thêm thông tin từ đối tác đổi cũ lấy mới của Apple về việc đổi cũ lấy mới và
+                        đối tác tái chế về việc tái chế các thiết bị đủ điều kiện. Các hạn chế và giới hạn có thể được
                         áp dụng. Có thể sẽ áp dụng Điều khoản và giới hạn về việc tái chế thiết bị đủ điều kiện.
                     </span>
                 </div>
-                <div class="content-footer">
-                    <div class="col-md-12" style="display: flex; align-items: center; justify-content: space-between;">
+                <div style="width: 100%;" class="col-md-12 ">
+                    <div class="content-footer"
+                        style="display: flex; align-items: center; justify-content: space-between;">
                         <div>
                             Bản quyền © Apple Inc. 2024 Bảo lưu mọi quyền.
                         </div>
@@ -303,35 +199,35 @@
                             Việt Nam
                         </div>
                     </div>
-                    <div class="col-md-12">
-                        <span>
-                            Chính Sách Quyền Riêng Tư |
-                        </span>
-                        <span>
-                            Điều Khoản Sử Dụng |
-                        </span>
-                        <span>
-                            Bán Hàng và Hoàn Tiền |
-                        </span>
-                        <span>
-                            Pháp Lý |
-                        </span>
-                        <span>
-                            Bản đồ trang web
-                        </span>
+                </div>
+                <div class="col-md-12">
+                    <span>
+                        Chính Sách Quyền Riêng Tư |
+                    </span>
+                    <span>
+                        Điều Khoản Sử Dụng |
+                    </span>
+                    <span>
+                        Bán Hàng và Hoàn Tiền |
+                    </span>
+                    <span>
+                        Pháp Lý |
+                    </span>
+                    <span>
+                        Bản đồ trang web
+                    </span>
 
-                    </div>
                 </div>
 
             </div>
         </div>
     </footer>
 
-
     <script src="script/navigation.js"></script>
     <script src="script/scroll.js"></script>
 
-    </div>
+
+
 
 </body>
 
