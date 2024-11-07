@@ -1,0 +1,15 @@
+body{
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+.img-detail img {
+    background-color: #e8e8e8;
+    border-radius: 30px;
+}
+.color-box{
+    width: 90px;
+    height: 30px;
+    border: solid 2px black;
+}
+*{
+    font-weight: lighter;
+}
