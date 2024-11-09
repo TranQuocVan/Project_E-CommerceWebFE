@@ -82,7 +82,7 @@ const renderNavigation = () => {
                 </div>
             </div>
         </div>
-        <div style="z-index: 1;" class="container-fluid content-when-hover main-bg-color"></div>`
+        <div id="under-nav" style="z-index: 1;" class="container-fluid content-when-hover main-bg-color"></div>`
         ;
 };
 renderNavigation();
@@ -152,8 +152,8 @@ dropdown.addEventListener('mouseenter', () => {
         }
     }, 10);
 });
-
-dropdown.addEventListener('mouseleave', () => {
+const underNav = document.querySelector('#under-nav');
+underNav.addEventListener('mouseleave', () => {
     // Clear timeouts and mark as not hovering
     clearTimeout(hoverDelay);
     clearTimeout(setOpacity);
