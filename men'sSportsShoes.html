@@ -12,6 +12,7 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
+    <link rel="stylesheet" href="styler/slider.css">
     <link rel="stylesheet" href="styler/navigation.css">
     <link rel="stylesheet" href="styler/global.css">
     <link rel="stylesheet" href="styler/men'sSportsShoes.css">
@@ -28,44 +29,29 @@
             <div class="container-fluid mt-5 text-center header">
                 <div class="row justify-content-center">
                     <div class="col-6 col-md-1 my-3">
-                        <img src="assets/supportImages/image1.png" class="img-fluid" alt="tre em">
-                        <p>Giày trẻ em</p>
+                        <img src="assets/men'sSportShoe/adidas.png" class="img-fluid" alt="adidas">
+                        <p>Adidas</p>
                     </div>
                     <div class="col-6 col-md-1 my-3">
-                        <img src="assets/supportImages/image2.png" class="img-fluid" alt="the thao nam">
-                        <p>Giày thể thao nam</p>
+                        <img src="assets/men'sSportShoe/jordan.png" class="img-fluid" alt="jordan">
+                        <p>Jordan</p>
                     </div>
                     <div class="col-6 col-md-1 my-3">
-                        <img src="assets/supportImages/image3.png" class="img-fluid" alt="cao got">
-                        <p>Giày cao gót</p>
+                        <img src="assets/men'sSportShoe/nike.png" class="img-fluid" alt="nike">
+                        <p>Nike</p>
                     </div>
                     <div class="col-6 col-md-1 my-3">
-                        <img src="assets/supportImages/image4.png" class="img-fluid" alt="the thao nu">
-                        <p>Giày thể thao nữ</p>
+                        <img src="assets/men'sSportShoe/puma.png" class="img-fluid" alt="puma">
+                        <p>Puma</p>
+                    </div>
+
+                    <div class="col-6 col-md-1 my-3">
+                        <img src="assets/men'sSportShoe/converse.png" class="img-fluid" alt="converse">
+                        <p>Converse</p>
                     </div>
                     <div class="col-6 col-md-1 my-3">
-                        <img src="assets/supportImages/image5.png" class="img-fluid" alt="bup be">
-                        <p>Giày búp bê</p>
-                    </div>
-                    <div class="col-6 col-md-1 my-3">
-                        <img src="assets/supportImages/image1.png" class="img-fluid" alt="tre em">
-                        <p>Giày trẻ em</p>
-                    </div>
-                    <div class="col-6 col-md-1 my-3">
-                        <img src="assets/supportImages/image2.png" class="img-fluid" alt="the thao nam">
-                        <p>Giày thể thao nam</p>
-                    </div>
-                    <div class="col-6 col-md-1 my-3">
-                        <img src="assets/supportImages/image3.png" class="img-fluid" alt="cao got">
-                        <p>Giày cao gót</p>
-                    </div>
-                    <div class="col-6 col-md-1 my-3">
-                        <img src="assets/supportImages/image4.png" class="img-fluid" alt="the thao nu">
-                        <p>Giày thể thao nữ</p>
-                    </div>
-                    <div class="col-6 col-md-1 my-3">
-                        <img src="assets/supportImages/image5.png" class="img-fluid" alt="bup be">
-                        <p>Giày búp bê</p>
+                        <img src="assets/men'sSportShoe/balance.png" class="img-fluid" alt="Balance">
+                        <p> Balance</p>
                     </div>
                 </div>
             </div>
@@ -97,9 +83,46 @@
                     <div class=" fw-bold text-xl-start text-first"><a>Tìm hiểu về giày thể thao nam.</a></div>
                 </div>
             </div>
+            <div style="padding-top: 70px;" class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div id="slide">
+                            <div class="item">
+                                <img src="assets/homeImages/1.png" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="assets/homeImages/2.png" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="assets/homeImages/3.png" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="assets/homeImages/4.png" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="assets/homeImages/5.png" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="assets/homeImages/6.png" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="assets/homeImages/1.png" alt="">
+                            </div>
+
+                            <button class="btnSlide" id="next">
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </button>
+                            <button class="btnSlide" style="display: none;" id="prev">
+                                <i class="fa-solid fa-chevron-left"></i>
+                            </button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </header>
-    <!-- Em vinh testcommit -->
 
 
     <footer>
@@ -110,6 +133,8 @@
     <script src="component/navigation.js"></script>
     <script src="component/footer.js"></script>
     <script src="script/men'sSportsShoe.js"></script>
+    <script src="script/scroll.js"></script>
+
 
 </body>
 
