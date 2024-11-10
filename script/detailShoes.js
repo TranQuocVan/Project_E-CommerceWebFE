@@ -49,4 +49,29 @@
             this.classList.add('active');
         });
     });
+    let quantity = 1; // Giá trị ban đầu
+
+    function increaseQuantity() {
+        quantity++;
+        document.getElementById("quantity").textContent = quantity;
+    }
+
+    function decreaseQuantity() {
+        if (quantity > 1) { // Ngăn không cho giảm dưới 1
+            quantity--;
+            document.getElementById("quantity").textContent = quantity;
+        }
+    }
+
+    document.querySelector('.img-detail img').addEventListener('mousedown', function() {
+        this.style.transform = 'scale(0.95)'; // Giảm kích thước khi nhấn
+    });
+
+    document.querySelector('.img-detail img').addEventListener('mouseup', function() {
+        this.style.transform = 'scale(1)'; // Khôi phục kích thước khi thả
+    });
+
+    document.querySelector('.img-detail img').addEventListener('mouseleave', function() {
+        this.style.transform = 'scale(1)'; // Khôi phục kích thước khi rời chuột
+    });
 
