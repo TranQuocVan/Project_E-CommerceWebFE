@@ -62,7 +62,7 @@ const data = {
 
 
 const renderNavigation = () => {
-    document.querySelector('nav').innerHTML = `<div style="position: fixed; z-index: 2;" class="container-fluid main-bg-color">
+    document.querySelector('nav').innerHTML = `<div style="position: fixed; z-index: 2000;" class="container-fluid main-bg-color">
             <div class="container">
                 <div style="font-size: 20px;" class="row">
                     <div class="col-md-9 flex-align-items-center dropdown">
@@ -82,7 +82,7 @@ const renderNavigation = () => {
                 </div>
             </div>
         </div>
-        <div id="under-nav" style="z-index: 1;" class="container-fluid content-when-hover main-bg-color"></div>`
+        <div id="under-nav" style="z-index: 1000;" class="container-fluid content-when-hover main-bg-color"></div>`
         ;
 };
 renderNavigation();
