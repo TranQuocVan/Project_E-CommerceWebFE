@@ -119,7 +119,14 @@ body {
     letter-spacing: -.003em;
     line-height: 1.0834933333;
 }
-
+.titleHeaderMin,
+.titleSubHeaderMin {
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: .007em;
+    line-height: 1.1428571429;
+}
 
 @media (max-width: 991px) {
     #list-page {
