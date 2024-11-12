@@ -48,3 +48,48 @@ document.getElementById('prev').onclick = function () {
 }
 
 updatePositions();
+
+// Cho slide2
+const offsetWidthSlide2 = document.getElementById('slide2').offsetWidth;
+const offsetWidthItem2 = document.querySelectorAll('#slide2 .item')[0].offsetWidth;
+const remainingPhotos2 = document.querySelectorAll('#slide2 .item').length - Math.floor((offsetWidthSlide2 + itemMargin) / (offsetWidthItem2 + itemMargin));
+
+const btnNext2 = document.getElementById('next2');
+const btnPrev2 = document.getElementById('prev2');
+
+let current2 = remainingPhotos2;
+const items2 = document.querySelectorAll('#slide2 .item');
+let currentPosition2 = 0;
+
+function updatePositions2() {
+    let position = currentPosition2;
+    items2.forEach((item) => {
+        item.style.left = `${position}px`;
+        position += offsetWidthItem2 + itemMargin;
+    });
+}
+
+btnNext2.onclick = function () {
+    current2--;
+    btnPrev2.style.display = 'block';
+    currentPosition2 -= (offsetWidthItem2 + itemMargin);
+
+    updatePositions2();
+
+    if (current2 == 0) {
+        btnNext2.style.display = 'none';
+    }
+}
+
+btnPrev2.onclick = function () {
+    current2++;
+    btnNext2.style.display = 'block';
+
+    currentPosition2 += (offsetWidthItem2 + itemMargin);
+    updatePositions2();
+    if (current2 == remainingPhotos2) {
+        btnPrev2.style.display = 'none';
+    }
+}
+
+updatePositions2();
