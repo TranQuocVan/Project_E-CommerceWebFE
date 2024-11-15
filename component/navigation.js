@@ -4,7 +4,7 @@ const data = {
             col1: 'Mua hàng',
             col1List: [
                 { name: 'Mua Sản Phẩm Mới Nhất' },
-                { name: 'Giày' },
+                { name: 'Giày'  },
                 { name: 'Dép' },
                 { name: 'Thương Hiệu' },
                 { name: 'Phụ kiện' }
@@ -68,7 +68,7 @@ const renderNavigation = () => {
                         <span class="navigation"><a href="index.html"><img style="width: 20px;" src="assets/logo2.svg"
                                     alt="logo"></a></span>
                         <span class="navigation" id="shop"><a href="#">Cửa hàng</a></span>
-                        <span class="navigation" id="shoe"><a href="#">Giày</a></span>
+                        <span class="navigation" id="shoe"><a href="shoes.html">Giày</a></span>
                         <span class="navigation"><a href="#">Dép</a></span>
                         <span class="navigation"><a href="#">Sản phẩm khuyến mãi</a></span>
                         <span class="navigation"><a href="#">Sản phẩm mới ra mắt</a></span>
