@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Men's Sports</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
@@ -16,6 +17,7 @@
     <link rel="stylesheet" href="styler/navigation.css">
     <link rel="stylesheet" href="styler/global.css">
     <link rel="stylesheet" href="styler/men'sSportsShoes.css">
+    <link rel="stylesheet" href="styler/lightBox.css">
 
 
 </head>
@@ -60,7 +62,7 @@
                 <div class="title d-flex justify-content-between">
                     <div class=" mx-5 fw-bold text-xl-start text-first"><a style=>Giày thể thao nam</a></div>
                     <div class="mx-5 fw-bold text-xl-start text-second ">
-                        <a>phong cách năng động <br> cho nam giới ngày nay</a>
+                        <a>phong cách năng động <br> cho nam <gi></gi>ới ngày nay</a>
                     </div>
                 </div>
                 <div class=" video container-fluid mt-5 text-center">
@@ -68,7 +70,7 @@
                         <div class="col-12 col-md-8 col-lg-6">
                             <div class="video-container">
                                 <video id="videoElement" autoplay muted loop class="w-100 h-auto">
-                                    <source src="/assets/video/shoe_men/1.mp4" type="video/mp4">
+                                    <source src="assets/video/shoe_men/1.mp4" type="video/mp4">
                                 </video>
 
 
@@ -79,7 +81,7 @@
             </div>
 
             <div class="container mt-5 text-center introduce">
-                <div  class="title d-flex justify-content-between">
+                <div class="title d-flex justify-content-between">
                     <div class=" fw-bold text-xl-start text-first"><a>Tìm hiểu về giày thể thao nam.</a></div>
                 </div>
             </div>
@@ -87,26 +89,26 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div id="slide">
-                            <div class="item">
-                                <img src="assets/homeImages/1.png" alt="">
+                            <div class="item" data-bs-toggle="modal" data-bs-target="#lightboxModal">
+                                <img src="assets/men'sSportShoe/bg1.png" alt="">
                             </div>
-                            <div class="item">
-                                <img src="assets/homeImages/2.png" alt="">
+                            <div class="item" data-bs-toggle="modal" data-bs-target="#lightboxModal">
+                                <img src="assets/men'sSportShoe/bg2.png" alt="">
                             </div>
-                            <div class="item">
-                                <img src="assets/homeImages/3.png" alt="">
+                            <div class="item" data-bs-toggle="modal" data-bs-target="#lightboxModal">
+                                <img src="assets/men'sSportShoe/bg3.png" alt="">
                             </div>
-                            <div class="item">
-                                <img src="assets/homeImages/4.png" alt="">
+                            <div class="item" data-bs-toggle="modal" data-bs-target="#lightboxModal">
+                                <img src="assets/men'sSportShoe/bg4.png" alt="">
                             </div>
-                            <div class="item">
-                                <img src="assets/homeImages/5.png" alt="">
+                            <div class="item" data-bs-toggle="modal" data-bs-target="#lightboxModal">
+                                <img src="assets/men'sSportShoe/bg5.png" alt="">
                             </div>
-                            <div class="item">
-                                <img src="assets/homeImages/6.png" alt="">
+                            <div class="item" data-bs-toggle="modal" data-bs-target="#lightboxModal">
+                                <img src="assets/men'sSportShoe/bg6.png" alt="">
                             </div>
-                            <div class="item">
-                                <img src="assets/homeImages/1.png" alt="">
+                            <div class="item" data-bs-toggle="modal" data-bs-target="#lightboxModal">
+                                <img src="assets/men'sSportShoe/bg1.png" alt="">
                             </div>
 
                             <button class="btnSlide" id="next">
@@ -122,18 +124,48 @@
             </div>
 
         </div>
+
+
     </header>
+
+
+
+
+    <div class="modal fade" id="lightboxModal" tabindex="-1" aria-labelledby="lightboxModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="lightbox-content">
+                        <div class="modal-text">
+                            <h1 id="modalText"></h1>
+                        </div>
+
+                        <div class="modal-image">
+                            <img id="modalImage" src="" class="img-fluid" alt="Full image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
 
 
     <footer>
 
     </footer>
 
-
     <script src="component/navigation.js"></script>
     <script src="component/footer.js"></script>
     <script src="script/men'sSportsShoe.js"></script>
     <script src="script/scroll.js"></script>
+    <script src="script/lightBox.js"></script>
 
 
 </body>

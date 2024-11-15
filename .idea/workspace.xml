@@ -7,8 +7,10 @@
     <list default="true" id="54457fa7-b39b-4e35-bc7a-8ead73accfb6" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/men'sSportsShoes.html" beforeDir="false" afterPath="$PROJECT_DIR$/men'sSportsShoes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styler/men'sSportsShoes.css" beforeDir="false" afterPath="$PROJECT_DIR$/styler/men'sSportsShoes.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script/lightBox.js" beforeDir="false" afterPath="$PROJECT_DIR$/script/lightBox.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script/scroll.js" beforeDir="false" afterPath="$PROJECT_DIR$/script/scroll.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styler/lightBox.css" beforeDir="false" afterPath="$PROJECT_DIR$/styler/lightBox.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styler/slider.css" beforeDir="false" afterPath="$PROJECT_DIR$/styler/slider.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,10 +20,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="TypeScript File" />
         <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -39,30 +41,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;disable.download.node.interpreter.editor.notification&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;TranQuocVan&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Project_E-CommerceWeb/assets/poster&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "disable.download.node.interpreter.editor.notification": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "D:/Project_E-CommerceWeb/assets/men'sSportShoe",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Project_E-CommerceWeb\assets\men'sSportShoe" />
       <recent name="D:\Project_E-CommerceWeb\assets\poster" />
       <recent name="D:\Project_E-CommerceWeb\assets\shoeMens" />
       <recent name="D:\Project_E-CommerceWeb\assets\background" />
       <recent name="D:\Project_E-CommerceWeb\assets\supportImages" />
-      <recent name="D:\Project_E-CommerceWeb\assets\icon" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Project_MidWeb\img\shoe_men" />
@@ -109,6 +111,14 @@
       <workItem from="1731162234351" duration="3652000" />
       <workItem from="1731166114908" duration="4464000" />
       <workItem from="1731213365172" duration="7819000" />
+      <workItem from="1731236108038" duration="363000" />
+      <workItem from="1731244887183" duration="60000" />
+      <workItem from="1731245056111" duration="8186000" />
+      <workItem from="1731255650552" duration="1348000" />
+      <workItem from="1731335669234" duration="6258000" />
+      <workItem from="1731422164849" duration="3160000" />
+      <workItem from="1731425394849" duration="160000" />
+      <workItem from="1731425563205" duration="3593000" />
     </task>
     <servers />
   </component>

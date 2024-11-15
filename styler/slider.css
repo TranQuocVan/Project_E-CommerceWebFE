@@ -57,7 +57,7 @@
 }
 
 
-#slide .item {
+#slide .item, #slide2 .item{
     position: absolute;
     top: 0;
     width: 300px;
@@ -67,7 +67,7 @@
 
 }
 
-#slide img {
+#slide img , #slide2 img {
 
     height: 100%;
     width: 100%;
@@ -75,7 +75,7 @@
     border-radius: 10px;
 }
 
-#slide {
+#slide , #slide2{
     height: 350px;
     position: relative;
     overflow: hidden
@@ -91,11 +91,11 @@
     font-size: 24px;
 }
 
-#next {
+#next ,#next2{
     right: 0;
 }
 
-#prev {
+#prev , #prev2{
     left: 0;
 
 }
