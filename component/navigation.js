@@ -30,11 +30,10 @@ const data = {
         {
             col1: 'Khám phá các loại giày',
             col1List: [
-                { name: 'Giày thể thao' },
-                { name: 'Giày lười' },
-                { name: 'Giày tây' },
-                { name: 'Giày búp bê' },
-                { name: 'Giày cao gót' }
+                { name: 'Giày thể thao nam' , url: 'men\'sSportsShoes.html' },
+                { name: 'Giày thể thao nữ' , url: 'index.html' },
+                { name: 'Giày công sở' },
+                { name: 'Giày cao gót' },
             ]
         },
         {
@@ -66,7 +65,7 @@ const renderNavigation = () => {
             <div class="container">
                 <div style="font-size: 20px;" class="row">
                     <div class="col-md-9 flex-align-items-center dropdown">
-                        <span class="navigation"><a href="index.html"><img style="width: 20px;" src="assets/logo.svg"
+                        <span class="navigation"><a href="index.html"><img style="width: 20px;" src="assets/logo2.svg"
                                     alt="logo"></a></span>
                         <span class="navigation" id="shop"><a href="#">Cửa hàng</a></span>
                         <span class="navigation" id="shoe"><a href="#">Giày</a></span>
@@ -96,19 +95,19 @@ const dropDown = () => {
             <div class="col-md-4">
                 <p class="content-when-hover-p">${item[0].col1}</p>
                 <div class="flex-direction-column">
-                    ${item[0].col1List.map(subitem => `<span><a class="content-when-hover-a-first" href="#">${subitem.name}</a></span>`).join('')}
+                    ${item[0].col1List.map(subitem => `<span><a class="content-when-hover-a-first" href="${subitem.url}">${subitem.name}</a></span>`).join('')}
                 </div>
             </div>
             <div class="col-md-2">
                 <p class="content-when-hover-p">${item[1].col2}</p>
                 <div class="flex-direction-column">
-                    ${item[1].col2List.map(subitem => `<span><a class="content-when-hover-a" href="#">${subitem.name}</a></span>`).join('')}
+                    ${item[1].col2List.map(subitem => `<span><a class="content-when-hover-a" href="${subitem.url}">${subitem.name}</a></span>`).join('')}
                 </div>
             </div>
             <div class="col-md-2">
                 <p class="content-when-hover-p">${item[2].col3}</p>
                 <div class="flex-direction-column">
-                    ${item[2].col3List.map(subitem => `<span><a class="content-when-hover-a" href="#">${subitem.name}</a></span>`).join('')}
+                    ${item[2].col3List.map(subitem => `<span><a class="content-when-hover-a" href="${subitem.url}">${subitem.name}</a></span>`).join('')}
                 </div>
             </div>
         </div>

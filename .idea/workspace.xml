@@ -5,12 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54457fa7-b39b-4e35-bc7a-8ead73accfb6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/script/test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/navigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/component/navigation.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/script/lightBox.js" beforeDir="false" afterPath="$PROJECT_DIR$/script/lightBox.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/script/scroll.js" beforeDir="false" afterPath="$PROJECT_DIR$/script/scroll.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styler/lightBox.css" beforeDir="false" afterPath="$PROJECT_DIR$/styler/lightBox.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styler/slider.css" beforeDir="false" afterPath="$PROJECT_DIR$/styler/slider.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/men'sSportsShoes.html" beforeDir="false" afterPath="$PROJECT_DIR$/men'sSportsShoes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styler/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/styler/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styler/men'sSportsShoes.css" beforeDir="false" afterPath="$PROJECT_DIR$/styler/men'sSportsShoes.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styler/navigation.css" beforeDir="false" afterPath="$PROJECT_DIR$/styler/navigation.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +50,7 @@
     "disable.download.node.interpreter.editor.notification": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "D:/Project_E-CommerceWeb/assets/men'sSportShoe",
+    "last_opened_file_path": "D:/Project_E-CommerceWeb2",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -60,11 +62,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Project_E-CommerceWeb\assets" />
       <recent name="D:\Project_E-CommerceWeb\assets\men'sSportShoe" />
       <recent name="D:\Project_E-CommerceWeb\assets\poster" />
       <recent name="D:\Project_E-CommerceWeb\assets\shoeMens" />
       <recent name="D:\Project_E-CommerceWeb\assets\background" />
-      <recent name="D:\Project_E-CommerceWeb\assets\supportImages" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Project_MidWeb\img\shoe_men" />
@@ -119,6 +121,12 @@
       <workItem from="1731422164849" duration="3160000" />
       <workItem from="1731425394849" duration="160000" />
       <workItem from="1731425563205" duration="3593000" />
+      <workItem from="1731517146555" duration="187000" />
+      <workItem from="1731517370317" duration="67000" />
+      <workItem from="1731655450608" duration="57000" />
+      <workItem from="1731657677133" duration="5587000" />
+      <workItem from="1731663561066" duration="8000" />
+      <workItem from="1731663570198" duration="84000" />
     </task>
     <servers />
   </component>
