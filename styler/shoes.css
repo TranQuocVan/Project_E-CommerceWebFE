@@ -2,6 +2,7 @@
 body{
     font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
+
 .header img {
     width: 100px; /* Đặt chiều rộng cố định */
     height: 100px; /* Đặt chiều cao cố định */
@@ -24,8 +25,10 @@ body{
 .content{
     padding: 0;
 }
+
 .video {
 
+    width: 100%;
     position: relative;
     padding-top: 56.25%; /* Tỷ lệ 16:9 */
     background-color: black; /* Màu nền của video */
@@ -56,20 +59,26 @@ video {
     transition: transform 0.3s ease;
     z-index: 10;
 }
-#best-sale {
-    display: flex;
-    align-items: center;
 
-}
-
-.best-saler-item {
+.container-fluid.learn-about {
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
 }
 
-#best-sale img {
-    width: 180px;
-    height: 120px;
-    object-fit: cover;
+.left, .right {
+    background-color: rgb(250 250 250);
+    flex: 1;
+    margin: 10px;
+    position: relative;
+    padding: 20px; /* Tạo khoảng cách giữa ảnh và nội dung */
+    overflow: hidden; /* Đảm bảo ảnh không bị tràn ra ngoài */
 }
+
+
+
+
+
+
+
+

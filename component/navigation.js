@@ -54,6 +54,33 @@ const data = {
                 { name: 'Vans' }
             ]
         }
+    ],
+    sandal: [ // Thêm dữ liệu cho Dép
+        {
+            col1: 'Khám phá các loại dép',
+            col1List: [
+                { name: 'Dép nam'  },
+                { name: 'Dép nữ'},
+                { name: 'Dép trẻ em' },
+            ]
+        },
+        {
+            col2: 'Mua dép',
+            col2List: [
+                { name: 'Dép nam' },
+                { name: 'Dép nữ' },
+                { name: 'Dép trẻ em' }
+            ]
+        },
+        {
+            col3: 'Thương hiệu',
+            col3List: [
+                { name: 'Havaianas' },
+                { name: 'Crocs' },
+                { name: 'Nike' },
+                { name: 'Adidas' }
+            ]
+        }
     ]
 };
 
@@ -61,15 +88,15 @@ const data = {
 
 
 const renderNavigation = () => {
-    document.querySelector('nav').innerHTML = `<div style="position: fixed; z-index: 2000;" class="container-fluid main-bg-color">
+    document.querySelector('nav').innerHTML = `
+        <div style="position: fixed; z-index: 2000;" class="container-fluid main-bg-color">
             <div class="container">
                 <div style="font-size: 20px;" class="row">
                     <div class="col-md-9 flex-align-items-center dropdown">
-                        <span class="navigation"><a href="index.html"><img style="width: 20px;" src="assets/logo2.svg"
-                                    alt="logo"></a></span>
-                        <span class="navigation" id="shop"><a href="#">Cửa hàng</a></span>
+                        <span class="navigation"><a href="index.html"><img style="width: 20px;" src="assets/logo2.svg" alt="logo"></a></span>
+                        <span class="navigation" id="shop"><a href="index.html">Cửa hàng</a></span>
                         <span class="navigation" id="shoe"><a href="shoes.html">Giày</a></span>
-                        <span class="navigation"><a href="#">Dép</a></span>
+                        <span class="navigation" id="sandal"><a href="#">Dép</a></span> 
                         <span class="navigation"><a href="#">Sản phẩm khuyến mãi</a></span>
                         <span class="navigation"><a href="#">Sản phẩm mới ra mắt</a></span>
                         <span class="navigation"><a href="#">Sản phẩm dành cho bé</a></span>
@@ -81,8 +108,8 @@ const renderNavigation = () => {
                 </div>
             </div>
         </div>
-        <div id="under-nav" style="z-index: 1000;" class="container-fluid content-when-hover main-bg-color"></div>`
-        ;
+        <div id="under-nav" style="z-index: 1000;" class="container-fluid content-when-hover main-bg-color"></div>
+    `;
 };
 renderNavigation();
 
@@ -123,6 +150,10 @@ document.querySelector('#shop').addEventListener('mouseenter', () => {
 
 document.querySelector('#shoe').addEventListener('mouseenter', () => {
     item = data.shoe;
+    dropDown();
+});
+document.querySelector('#sandal').addEventListener('mouseenter', () => { // Thêm sự kiện cho Dép
+    item = data.sandal;
     dropDown();
 });
 
