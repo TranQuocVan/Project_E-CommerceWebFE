@@ -1,6 +1,17 @@
+
 body{
     font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
+.header img {
+    width: 100px; /* Đặt chiều rộng cố định */
+    height: 100px; /* Đặt chiều cao cố định */
+    object-fit: contain; /* Đảm bảo ảnh không bị méo */
+}
+.header p {
+    font-size: 20px;
+}
+
+
 .text-first{
     font-size:64px;
 }
@@ -57,8 +68,8 @@ video {
     align-items: center;
 }
 
-#best-sale img {
-    width: 180px;
-    height: 120px;
-    object-fit: cover;
-}
+    #best-sale img {
+        width: 180px;
+        height: 120px;
+        object-fit: cover;
+    }

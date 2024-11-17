@@ -4,7 +4,7 @@ const data = {
             col1: 'Mua hàng',
             col1List: [
                 { name: 'Mua Sản Phẩm Mới Nhất' },
-                { name: 'Giày' },
+                { name: 'Giày'  },
                 { name: 'Dép' },
                 { name: 'Thương Hiệu' },
                 { name: 'Phụ kiện' }
@@ -30,11 +30,10 @@ const data = {
         {
             col1: 'Khám phá các loại giày',
             col1List: [
-                { name: 'Giày thể thao' },
-                { name: 'Giày lười' },
-                { name: 'Giày tây' },
-                { name: 'Giày búp bê' },
-                { name: 'Giày cao gót' }
+                { name: 'Giày thể thao nam' , url: 'men\'sSportsShoes.html' },
+                { name: 'Giày thể thao nữ' , url: 'index.html' },
+                { name: 'Giày công sở' },
+                { name: 'Giày cao gót' },
             ]
         },
         {
@@ -55,6 +54,33 @@ const data = {
                 { name: 'Vans' }
             ]
         }
+    ],
+    sandal: [ // Thêm dữ liệu cho Dép
+        {
+            col1: 'Khám phá các loại dép',
+            col1List: [
+                { name: 'Dép nam'  },
+                { name: 'Dép nữ'},
+                { name: 'Dép trẻ em' },
+            ]
+        },
+        {
+            col2: 'Mua dép',
+            col2List: [
+                { name: 'Dép nam' },
+                { name: 'Dép nữ' },
+                { name: 'Dép trẻ em' }
+            ]
+        },
+        {
+            col3: 'Thương hiệu',
+            col3List: [
+                { name: 'Havaianas' },
+                { name: 'Crocs' },
+                { name: 'Nike' },
+                { name: 'Adidas' }
+            ]
+        }
     ]
 };
 
@@ -62,22 +88,26 @@ const data = {
 
 
 const renderNavigation = () => {
-    document.querySelector('nav').innerHTML = `<div style="position: fixed; z-index: 2000;" class="container-fluid main-bg-color">
+    document.querySelector('nav').innerHTML = `
+        <div style="position: fixed; z-index: 2000;" class="container-fluid main-bg-color">
             <div class="container">
                 <div style="font-size: 20px;" class="row">
                     <div class="col-md-9 flex-align-items-center dropdown">
-                        <span class="navigation"><a href="index.html"><img style="width: 20px;" src="assets/logo.svg"
-                                    alt="logo"></a></span>
-                        <span class="navigation" id="shop"><a href="#">Cửa hàng</a></span>
-                        <span class="navigation" id="shoe"><a href="#">Giày</a></span>
-                        <span class="navigation"><a href="#">Dép</a></span>
+                        <span class="navigation"><a href="index.html"><img style="width: 20px;" src="assets/logo2.svg" alt="logo"></a></span>
+                        <span class="navigation" id="shop"><a href="index.html">Cửa hàng</a></span>
+                        <span class="navigation" id="shoe"><a href="shoes.html">Giày</a></span>
+                        <span class="navigation" id="sandal"><a href="#">Dép</a></span> 
                         <span class="navigation"><a href="#">Sản phẩm khuyến mãi</a></span>
                         <span class="navigation"><a href="#">Sản phẩm mới ra mắt</a></span>
                         <span class="navigation"><a href="#">Sản phẩm dành cho bé</a></span>
+                       
+                        
                     </div>
                     <div class="col-md-3 flex-align-items-center" style="justify-content: end;">
-                        <span class="navigation"><a href="login.html">Log in</a></span>
-                        <span class="navigation"><a href="logout.html">Log out</a></span>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <i class="fa-solid fa-user" ></span></i>
+                        
                     </div>
                 </div>
             </div>
@@ -102,19 +132,19 @@ const dropDown = () => {
             <div class="col-md-4">
                 <p class="content-when-hover-p">${item[0].col1}</p>
                 <div class="flex-direction-column">
-                    ${item[0].col1List.map(subitem => `<span><a class="content-when-hover-a-first" href="#">${subitem.name}</a></span>`).join('')}
+                    ${item[0].col1List.map(subitem => `<span><a class="content-when-hover-a-first" href="${subitem.url}">${subitem.name}</a></span>`).join('')}
                 </div>
             </div>
             <div class="col-md-2">
                 <p class="content-when-hover-p">${item[1].col2}</p>
                 <div class="flex-direction-column">
-                    ${item[1].col2List.map(subitem => `<span><a class="content-when-hover-a" href="#">${subitem.name}</a></span>`).join('')}
+                    ${item[1].col2List.map(subitem => `<span><a class="content-when-hover-a" href="${subitem.url}">${subitem.name}</a></span>`).join('')}
                 </div>
             </div>
             <div class="col-md-2">
                 <p class="content-when-hover-p">${item[2].col3}</p>
                 <div class="flex-direction-column">
-                    ${item[2].col3List.map(subitem => `<span><a class="content-when-hover-a" href="#">${subitem.name}</a></span>`).join('')}
+                    ${item[2].col3List.map(subitem => `<span><a class="content-when-hover-a" href="${subitem.url}">${subitem.name}</a></span>`).join('')}
                 </div>
             </div>
         </div>
@@ -130,6 +160,10 @@ document.querySelector('#shop').addEventListener('mouseenter', () => {
 
 document.querySelector('#shoe').addEventListener('mouseenter', () => {
     item = data.shoe;
+    dropDown();
+});
+document.querySelector('#sandal').addEventListener('mouseenter', () => { // Thêm sự kiện cho Dép
+    item = data.sandal;
     dropDown();
 });
 
