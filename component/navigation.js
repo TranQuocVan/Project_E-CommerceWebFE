@@ -100,10 +100,14 @@ const renderNavigation = () => {
                         <span class="navigation"><a href="#">Sản phẩm khuyến mãi</a></span>
                         <span class="navigation"><a href="#">Sản phẩm mới ra mắt</a></span>
                         <span class="navigation"><a href="#">Sản phẩm dành cho bé</a></span>
+                       
+                        
                     </div>
                     <div class="col-md-3 flex-align-items-center" style="justify-content: end;">
-                        <span class="navigation"><a href="login.html">Log in</a></span>
-                        <span class="navigation"><a href="logout.html">Log out</a></span>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <i class="fa-solid fa-user" ></span></i>
+                        
                     </div>
                 </div>
             </div>
