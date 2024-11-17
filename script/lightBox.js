@@ -19,3 +19,4 @@ thumbnails.forEach(thumbnail => {
         buyButton.setAttribute('data-price', imagePrice);
     });
 });
+
