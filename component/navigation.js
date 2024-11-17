@@ -82,6 +82,12 @@ const renderNavigation = () => {
                 </div>
             </div>
         </div>
+        <div class="holiday">
+            <div class="shape holiday-yellow"></div>
+            <div class="shape holiday-pinkOne"></div>
+            <div class="shape holiday-pinkTwo"></div>
+            <div class="shape holiday-blue"></div>
+        </div>
         <div id="under-nav" style="z-index: 1000;" class="container-fluid content-when-hover main-bg-color"></div>`
         ;
 };
