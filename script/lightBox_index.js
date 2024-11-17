@@ -1,4 +1,4 @@
-const thumbnails = document.querySelectorAll('#slide .item img');
+const thumbnails = document.querySelectorAll('#slide2 .item img');
 
 thumbnails.forEach(thumbnail => {
     thumbnail.addEventListener('click', function(event) {
