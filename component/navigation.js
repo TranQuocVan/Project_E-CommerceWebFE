@@ -4,7 +4,7 @@ const data = {
             col1: 'Mua hàng',
             col1List: [
                 { name: 'Mua Sản Phẩm Mới Nhất' },
-                { name: 'Giày'  },
+                { name: 'Giày' },
                 { name: 'Dép' },
                 { name: 'Thương Hiệu' },
                 { name: 'Phụ kiện' }
@@ -30,8 +30,8 @@ const data = {
         {
             col1: 'Khám phá các loại giày',
             col1List: [
-                { name: 'Giày thể thao nam' , url: 'men\'sSportsShoes.html' },
-                { name: 'Giày thể thao nữ' , url: 'index.html' },
+                { name: 'Giày thể thao nam', url: 'men\'sSportsShoes.html' },
+                { name: 'Giày thể thao nữ', url: 'index.html' },
                 { name: 'Giày công sở' },
                 { name: 'Giày cao gót' },
             ]
@@ -59,8 +59,8 @@ const data = {
         {
             col1: 'Khám phá các loại dép',
             col1List: [
-                { name: 'Dép nam'  },
-                { name: 'Dép nữ'},
+                { name: 'Dép nam' },
+                { name: 'Dép nữ' },
                 { name: 'Dép trẻ em' },
             ]
         },
@@ -89,7 +89,7 @@ const data = {
 
 const renderNavigation = () => {
     document.querySelector('nav').innerHTML = `
-        <div style="position: fixed; z-index: 2000;" class="container-fluid main-bg-color">
+        <div id="navigation" class="container-fluid main-bg-color">
             <div class="container">
                 <div style="font-size: 20px;" class="row">
                     <div class="col-md-9 flex-align-items-center dropdown">
