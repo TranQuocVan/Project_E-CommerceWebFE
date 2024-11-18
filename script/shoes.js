@@ -18,6 +18,21 @@ $(window).on('scroll', function () {
 
 
 });
+
+// Lắng nghe sự kiện thay đổi kích thước cửa sổ
+$(window).on('resize', function () {
+    var windowWidth = $(window).width(); // Lấy chiều rộng cửa sổ
+    var scale = windowWidth / 1200; // Điều chỉnh tỷ lệ theo chiều rộng (1200 là chiều rộng tối đa mong muốn)
+
+    // Đảm bảo không thu nhỏ quá mức
+    if (scale < 0.5) {
+        scale = 0.5; // Giới hạn tỷ lệ thu nhỏ không nhỏ hơn 50%
+    }
+
+    // Áp dụng tỷ lệ thu nhỏ cho video
+    $('.video').css('transform', 'scale(' + scale + ')');
+});
+
 const body = document.querySelector('body');
 body.addEventListener('scroll', function () {
     let scroll = body.scrollTop;
