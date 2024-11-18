@@ -16,17 +16,19 @@
 
 .buy-button-container {
     position: absolute;
-    bottom: 100px; /* Điều chỉnh để giá nằm dưới ảnh */
+    bottom: 100px;
     left: 50%;
     transform: translateX(-50%);
     z-index: 10;
 }
+
+
 .order-button {
     width: 250px;
     height: 50px;
-    background-color: #f8f9fa; /* Màu nền */
-    color: black; /* Màu chữ */
-    border-radius: 30px; /* Bo tròn */
+    background-color: #f8f9fa;
+    color: black;
+    border-radius: 30px;
     border: solid 2px black;
     display: flex;
     justify-content: center;
@@ -38,8 +40,8 @@
 }
 
 .order-button:hover {
-    background-color: black; /* Màu nền khi hover */
-    color: white; /* Màu chữ khi hover */
+    background-color: black;
+    color: white;
 }
 
 .order-button i {
@@ -51,11 +53,9 @@
     font-size: 16px;
 }
 
-/* Nút khi nhấn và đã active */
 .order-button:active {
     transform: scale(0.98);
 }
-
 
 .modal-price {
     font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
@@ -64,7 +64,7 @@
     letter-spacing: .007em;
     line-height: 1.1428571429;
     position: absolute;
-    bottom: 150px; /* Điều chỉnh để giá nằm dưới ảnh */
+    bottom: 150px;
     left: 50%;
     transform: translateX(-50%);
     color: black;

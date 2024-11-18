@@ -1,7 +1,4 @@
-//
 
-// Lắng nghe sự kiện click vào nút tạm dừng
-// Lắng nghe sự kiện cuộn trang
 $(window).on('scroll', function () {
     var scroll = $(window).scrollTop(); // Lấy vị trí cuộn trang
 
