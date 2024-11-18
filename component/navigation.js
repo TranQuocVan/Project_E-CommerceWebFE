@@ -1,6 +1,5 @@
 const data = {
-    shop: [
-        {
+    shop: [{
             col1: 'Mua hàng',
             col1List: [
                 { name: 'Mua Sản Phẩm Mới Nhất' },
@@ -26,12 +25,11 @@ const data = {
             ]
         }
     ],
-    shoe: [
-        {
+    shoe: [{
             col1: 'Khám phá các loại giày',
             col1List: [
                 { name: 'Giày thể thao nam', url: 'men\'sSportsShoes.html' },
-                { name: 'Giày thể thao nữ', url: 'index.html' },
+                { name: 'Giày thể thao nữ', url: 'women\womenShoes.html' },
                 { name: 'Giày công sở' },
                 { name: 'Giày cao gót' },
             ]
@@ -118,15 +116,14 @@ const renderNavigation = () => {
             <div class="shape holiday-pinkTwo"></div>
             <div class="shape holiday-blue"></div>
         </div>
-        <div id="under-nav" style="z-index: 1000;" class="container-fluid content-when-hover main-bg-color"></div>`
-        ;
+        <div id="under-nav" style="z-index: 1000;" class="container-fluid content-when-hover main-bg-color"></div>`;
 };
 renderNavigation();
 
 const contentWhenHover = document.querySelector('.content-when-hover');
 const underNavigation = document.querySelector('.under-navigation');
 const dropDown = () => {
-    contentWhenHover.innerHTML = `
+        contentWhenHover.innerHTML = `
     <div class="container">
         <div class="row">
             <div class="col-md-4">
