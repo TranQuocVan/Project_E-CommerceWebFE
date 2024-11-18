@@ -3,9 +3,7 @@ const offsetWidthSlide = document.getElementById('slide').offsetWidth;
 const offsetWidthItem = document.querySelectorAll('.item')[0].offsetWidth;
 const itemMargin = 20;
 const remainingPhotos = document.querySelectorAll('#slide .item').length - Math.floor((offsetWidthSlide + itemMargin) / (offsetWidthItem + itemMargin));
-console.log(document.querySelectorAll('.item').length)
-console.log(Math.floor((offsetWidthSlide + itemMargin) / (offsetWidthItem + itemMargin)))
-console.log(remainingPhotos);
+
 const btnNext = document.getElementById('next');
 const btnPrev = document.getElementById('prev');
 

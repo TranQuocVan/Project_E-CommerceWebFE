@@ -11,11 +11,11 @@ nameLogin.addEventListener('blur', () => {
     inputName.style.border = '1px solid #ced4da';
     icon.style.top = 'calc(50% - 10px)';
 });
-const btnGetGmail = document.querySelector("#btnGetGmail");
+const btnLogin = document.querySelector("#btnLogin");
 icon.addEventListener('click', () => {
     if (nameLogin.value != '') {
         inputPass.style.display = 'block';
-        btnGetGmail.style.display = 'block';
+        btnLogin.style.display = 'block';
         document.querySelector("#alterClick").style.display = 'block';
     }
 });

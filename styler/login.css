@@ -79,11 +79,11 @@
     font-size: 15px;
 }
 
-#btnGetGmail {
+#btnLogin {
     padding: 10px 10px 10px 5px;
     width: 70%;
     display: none;
-    animation: btnGetGmail 1s;
+    animation: btnLogin 1s;
     height: 50px;
     overflow-y: hidden;
 
@@ -94,7 +94,7 @@
     animation: alterClick 3s;
 }
 
-@keyframes btnGetGmail {
+@keyframes btnLogin {
     from {
         opacity: 0;
         width: 0%;

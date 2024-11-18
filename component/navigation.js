@@ -1,59 +1,57 @@
 const data = {
-    shop: [
-        {
-            col1: 'Mua hàng',
-            col1List: [
-                { name: 'Mua Sản Phẩm Mới Nhất' },
-                { name: 'Giày' },
-                { name: 'Dép' },
-                { name: 'Thương Hiệu' },
-                { name: 'Phụ kiện' }
-            ]
-        },
-        {
-            col2: 'Chính sách',
-            col2List: [
-                { name: 'Chính sách bảo mật' },
-                { name: 'Chính sách vận chuyển' },
-                { name: 'Chính sách đổi trả' }
-            ]
-        },
-        {
-            col3: 'Liên hệ',
-            col3List: [
-                { name: 'Liên hệ hotline' },
-                { name: 'Liên hệ email' }
-            ]
-        }
+    shop: [{
+        col1: 'Mua hàng',
+        col1List: [
+            { name: 'Mua Sản Phẩm Mới Nhất' },
+            { name: 'Giày' },
+            { name: 'Dép' },
+            { name: 'Thương Hiệu' },
+            { name: 'Phụ kiện' }
+        ]
+    },
+    {
+        col2: 'Chính sách',
+        col2List: [
+            { name: 'Chính sách bảo mật' },
+            { name: 'Chính sách vận chuyển' },
+            { name: 'Chính sách đổi trả' }
+        ]
+    },
+    {
+        col3: 'Liên hệ',
+        col3List: [
+            { name: 'Liên hệ hotline' },
+            { name: 'Liên hệ email' }
+        ]
+    }
     ],
-    shoe: [
-        {
-            col1: 'Khám phá các loại giày',
-            col1List: [
-                { name: 'Giày thể thao nam', url: 'men\'sSportsShoes.html' },
-                { name: 'Giày thể thao nữ', url: 'index.html' },
-                { name: 'Giày công sở' },
-                { name: 'Giày cao gót' },
-            ]
-        },
-        {
-            col2: 'Mua giày',
-            col2List: [
-                { name: 'Giày nam' },
-                { name: 'Giày nữ' },
-                { name: 'Giày trẻ em' }
-            ]
-        },
-        {
-            col3: 'Thương hiệu',
-            col3List: [
-                { name: 'Adidas' },
-                { name: 'Nike' },
-                { name: 'Converse' },
-                { name: 'Puma' },
-                { name: 'Vans' }
-            ]
-        }
+    shoe: [{
+        col1: 'Khám phá các loại giày',
+        col1List: [
+            { name: 'Giày thể thao nam', url: 'men\'sSportsShoes.html' },
+            { name: 'Giày thể thao nữ', url: 'women\womenShoes.html' },
+            { name: 'Giày công sở' },
+            { name: 'Giày cao gót' },
+        ]
+    },
+    {
+        col2: 'Mua giày',
+        col2List: [
+            { name: 'Giày nam' },
+            { name: 'Giày nữ' },
+            { name: 'Giày trẻ em' }
+        ]
+    },
+    {
+        col3: 'Thương hiệu',
+        col3List: [
+            { name: 'Adidas' },
+            { name: 'Nike' },
+            { name: 'Converse' },
+            { name: 'Puma' },
+            { name: 'Vans' }
+        ]
+    }
     ],
     sandal: [ // Thêm dữ liệu cho Dép
         {
@@ -85,7 +83,7 @@ const data = {
 };
 
 
-
+let isLogin = false;
 
 const renderNavigation = () => {
     document.querySelector('nav').innerHTML = `
@@ -104,10 +102,7 @@ const renderNavigation = () => {
                         
                     </div>
                     <div class="col-md-3 flex-align-items-center" style="justify-content: end;">
-                        <i class="fa-solid fa-magnifying-glass"></i>
-                        <i class="fa-solid fa-cart-shopping"></i>
-                        <i class="fa-solid fa-user" ></span></i>
-                        
+                        ${isLogin ? `<div class="under-navigation"></div>` : `<a href='login.html'>Login</i></a>`}
                     </div>
                 </div>
             </div>
@@ -118,8 +113,7 @@ const renderNavigation = () => {
             <div class="shape holiday-pinkTwo"></div>
             <div class="shape holiday-blue"></div>
         </div>
-        <div id="under-nav" style="z-index: 1000;" class="container-fluid content-when-hover main-bg-color"></div>`
-        ;
+        <div id="under-nav" style="z-index: 1000;" class="container-fluid content-when-hover main-bg-color"></div>`;
 };
 renderNavigation();
 
