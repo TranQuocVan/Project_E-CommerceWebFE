@@ -13,12 +13,20 @@ body{
 }
 
 
-.text-first{
+.text-first h1{
     font-size:64px;
+    line-height: 1.0625;
+    letter-spacing: -0.009em;
+    font-weight: 600;
+
 }
-.text-second{
+.text-second h2{
     font-size:24px;
+    letter-spacing: .009em;
+    line-height: 1.1666666667;
+    font-weight: 600;
 }
+
 .header{
     background-color: #fafafc;
 }
