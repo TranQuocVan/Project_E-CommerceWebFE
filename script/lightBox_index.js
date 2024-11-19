@@ -7,12 +7,12 @@ thumbnailsSlide2.forEach(thumbnail => {
 
         // Lấy nguồn ảnh từ thẻ img
         const imageSrc = this.src;
-        const modalImage = document.getElementById('modalImage');
+        const modalImage = document.getElementById('modalImage2');
         modalImage.src = imageSrc;
 
         // Lấy giá từ thuộc tính data-price của phần tử cha (div.item)
         const imagePrice = this.closest('.item').getAttribute('data-price');
-        const modalPrice = document.getElementById('modalPrice');
+        const modalPrice = document.getElementById('modalPrice2');
         modalPrice.textContent = `Giá: ${imagePrice}`;
 
         // Cập nhật giá trị của nút "Mua ngay"
