@@ -90,3 +90,17 @@ video {
     height: 120px;
     object-fit: cover;
 }
+.container-fluid.learn-about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left, .right {
+    background-color: rgb(250 250 250);
+    flex: 1;
+    margin: 10px;
+    position: relative;
+    padding: 20px; /* Tạo khoảng cách giữa ảnh và nội dung */
+    overflow: hidden; /* Đảm bảo ảnh không bị tràn ra ngoài */
+}
