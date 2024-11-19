@@ -57,16 +57,16 @@ const data = {
         {
             col1: 'Khám phá các loại dép',
             col1List: [
-                { name: 'Dép nam', url: '' },
-                { name: 'Dép nữ', },
+                { name: 'Dép nam' },
+                { name: 'Dép nữ', url: 'womenSandals.html' },
                 { name: 'Dép trẻ em' },
             ]
         },
         {
             col2: 'Mua dép',
             col2List: [
-                { name: 'Dép nam', url: ' ' },
-                { name: 'Dép nữ', url: 'womenSandals.html' },
+                { name: 'Dép nam' },
+                { name: 'Dép nữ' },
                 { name: 'Dép trẻ em' }
             ]
         },
