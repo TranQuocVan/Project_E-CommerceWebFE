@@ -16,11 +16,20 @@
 
 .buy-button-container {
     position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+}
+
+.buy-button-container2 {
+    position: absolute;
     bottom: 100px;
     left: 50%;
     transform: translateX(-50%);
     z-index: 10;
 }
+
 
 
 .order-button {
