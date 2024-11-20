@@ -6,10 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="54457fa7-b39b-4e35-bc7a-8ead73accfb6" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/men'sSportShoe/s6.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/men'sSportShoe/s6.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/men'sSportsShoes.html" beforeDir="false" afterPath="$PROJECT_DIR$/men'sSportsShoes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styler/men'sSportsShoes.css" beforeDir="false" afterPath="$PROJECT_DIR$/styler/men'sSportsShoes.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/womenSandals.html" beforeDir="false" afterPath="$PROJECT_DIR$/womenSandals.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/womenShoes.html" beforeDir="false" afterPath="$PROJECT_DIR$/womenShoes.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -141,6 +138,8 @@
       <workItem from="1732000813086" duration="6000" />
       <workItem from="1732026888911" duration="1120000" />
       <workItem from="1732028062343" duration="3943000" />
+      <workItem from="1732119767102" duration="4000" />
+      <workItem from="1732119925477" duration="1684000" />
     </task>
     <servers />
   </component>
