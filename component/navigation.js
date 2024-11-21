@@ -85,6 +85,7 @@ const data = {
 
 let isLogin = false;
 
+
 const renderNavigation = () => {
         document.querySelector('nav').innerHTML = `
         <div id="navigation" class="container-fluid main-bg-color">
@@ -102,7 +103,7 @@ const renderNavigation = () => {
                         
                     </div>
                     <div class="col-md-3 flex-align-items-center" style="justify-content: end;">
-                        ${isLogin ? `<div class="under-navigation"></div>` : `<a href='login.html'>Login</i></a>`}
+                        ${isLogin ? `<i class="fa-solid fa-user"></i>` : `<a href='login.html'>Login</i></a>`}
                     </div>
                 </div>
             </div>
@@ -116,6 +117,8 @@ const renderNavigation = () => {
         <div id="under-nav" style="z-index: 1000;" class="container-fluid content-when-hover main-bg-color"></div>`;
 };
 renderNavigation();
+
+
 
 const contentWhenHover = document.querySelector('.content-when-hover');
 const underNavigation = document.querySelector('.under-navigation');
