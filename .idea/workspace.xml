@@ -5,11 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54457fa7-b39b-4e35-bc7a-8ead73accfb6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/men'sSportShoe/s6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoppingCart.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styler/shoppingCart.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/men'sSportsShoes.html" beforeDir="false" afterPath="$PROJECT_DIR$/men'sSportsShoes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/script/lightBox.js" beforeDir="false" afterPath="$PROJECT_DIR$/script/lightBox.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/detailShoes.html" beforeDir="false" afterPath="$PROJECT_DIR$/detailShoes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shoes.html" beforeDir="false" afterPath="$PROJECT_DIR$/shoes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styler/detailShoes.css" beforeDir="false" afterPath="$PROJECT_DIR$/styler/detailShoes.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styler/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/styler/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,9 +22,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="TypeScript File" />
+        <option value="JavaScript File" />
         <option value="HTML File" />
         <option value="CSS File" />
-        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -47,7 +49,7 @@
     &quot;disable.download.node.interpreter.editor.notification&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;TranQuocVan&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Project_E-CommerceWeb/assets/shoes&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Project_E-CommerceWeb&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -59,11 +61,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Project_E-CommerceWeb" />
+      <recent name="D:\Project_E-CommerceWeb\component" />
       <recent name="D:\Project_E-CommerceWeb\assets\shoes" />
       <recent name="D:\Project_E-CommerceWeb\assets" />
       <recent name="D:\Project_E-CommerceWeb\assets\men'sSportShoe" />
-      <recent name="D:\Project_E-CommerceWeb\assets\poster" />
-      <recent name="D:\Project_E-CommerceWeb\assets\shoeMens" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Project_MidWeb\img\shoe_men" />
@@ -131,10 +133,38 @@
       <workItem from="1731834775514" duration="2443000" />
       <workItem from="1731837352433" duration="13000" />
       <workItem from="1731837424873" duration="3464000" />
+      <workItem from="1731852702804" duration="247000" />
+      <workItem from="1731894075185" duration="662000" />
+      <workItem from="1731927779101" duration="85000" />
+      <workItem from="1731938673018" duration="64000" />
+      <workItem from="1731938744712" duration="4469000" />
+      <workItem from="1731989856082" duration="2197000" />
+      <workItem from="1732000813086" duration="6000" />
+      <workItem from="1732026888911" duration="1120000" />
+      <workItem from="1732028062343" duration="3943000" />
+      <workItem from="1732119767102" duration="4000" />
+      <workItem from="1732119925477" duration="1684000" />
+      <workItem from="1732157982051" duration="109000" />
+      <workItem from="1732159565586" duration="125000" />
+      <workItem from="1732182594888" duration="5903000" />
+      <workItem from="1732202184858" duration="3550000" />
+      <workItem from="1732205996852" duration="960000" />
+      <workItem from="1732286088029" duration="5476000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

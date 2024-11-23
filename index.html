@@ -41,7 +41,9 @@
                     <!-- Các item -->
                     <div class="col-6 col-md-4 col-lg-2 mb-4">
                         <div class="best-saler-item text-center">
-                            <img src="assets/bestSellerHome/image1.png" alt="" class="img-fluid">
+                            <a href="men'sSportsShoes.html">
+                                <img src="assets/bestSellerHome/image1.png" alt="Men's Sports Shoes" class="img-fluid">
+                            </a>
                             <span>Giày thể thao nam</span>
                         </div>
                     </div>
@@ -92,26 +94,25 @@
 
                     <div class="col-md-12">
                         <div id="slide">
-
-                            <div class="item">
+                            <div class="item" data-bs-toggle="modal" data-bs-target="#lightboxModal">
                                 <img src="assets/homeImages/1.png" alt="">
                             </div>
-                            <div class="item">
+                            <div class="item" data-bs-toggle="modal" data-bs-target="#lightboxModal">
                                 <img src="assets/homeImages/2.png" alt="">
                             </div>
-                            <div class="item">
+                            <div class="item" data-bs-toggle="modal" data-bs-target="#lightboxModal" data-price="700.000đ">
                                 <img src="assets/homeImages/3.png" alt="">
                             </div>
-                            <div class="item">
+                            <div class="item" data-bs-toggle="modal" data-bs-target="#lightboxModal" data-price="800.000đ">
                                 <img src="assets/homeImages/4.png" alt="">
                             </div>
-                            <div class="item">
+                            <div class="item" data-bs-toggle="modal" data-bs-target="#lightboxModal" data-price="900.000đ">
                                 <img src="assets/homeImages/5.png" alt="">
                             </div>
-                            <div class="item">
+                            <div class="item" data-bs-toggle="modal" data-bs-target="#lightboxModal" data-price="1000.000đ">
                                 <img src="assets/homeImages/6.png" alt="">
                             </div>
-                            <div class="item">
+                            <div class="item" data-bs-toggle="modal" data-bs-target="#lightboxModal" data-price="1100.000đ">
                                 <img src="assets/homeImages/1.png" alt="">
                             </div>
 
@@ -151,22 +152,22 @@
                     <div class="col-md-12">
                         <div id="slide2">
 
-                            <div class="item" data-bs-toggle="modal" data-bs-target="#lightboxModal" data-price="500.000đ" >
+                            <div class="item" data-bs-toggle="modal" data-bs-target="#lightboxModal2" data-price="500.000đ" >
                                 <img src="assets/homeImages/7.png" alt="">
                             </div>
-                            <div class="item" data-bs-toggle="modal" data-bs-target="#lightboxModal" data-price="799.000đ">
+                            <div class="item" data-bs-toggle="modal" data-bs-target="#lightboxModal2" data-price="799.000đ">
                                 <img src="assets/homeImages/8.png" alt="">
                             </div>
-                            <div class="item" data-bs-toggle="modal" data-bs-target="#lightboxModal" data-price="900.000đ">
+                            <div class="item" data-bs-toggle="modal" data-bs-target="#lightboxModal2" data-price="900.000đ">
                                 <img src="assets/homeImages/9.png" alt="">
                             </div>
-                            <div class="item" data-bs-toggle="modal" data-bs-target="#lightboxModal" data-price="300.000đ">
+                            <div class="item" data-bs-toggle="modal" data-bs-target="#lightboxModal2" data-price="300.000đ">
                                 <img src="assets/homeImages/10.png" alt="">
                             </div>
-                            <div class="item" data-bs-toggle="modal" data-bs-target="#lightboxModal" data-price="799.000đ">
+                            <div class="item" data-bs-toggle="modal" data-bs-target="#lightboxModal2" data-price="799.000đ">
                                 <img src="assets/homeImages/11.png" alt="">
                             </div>
-                            <div class="item" data-bs-toggle="modal" data-bs-target="#lightboxModal">
+                            <div class="item" data-bs-toggle="modal" data-bs-target="#lightboxModal2">
                                 <img src="assets/homeImages/12.png" alt="" data-price="999.000đ">
                             </div>
                             <div class="item" data-bs-toggle="modal" data-bs-target="#lightboxModal" >
@@ -232,9 +233,7 @@
         </div>
     </header>
 
-
-    <!--Light box -->
-
+    <!--Light box1 -->
     <div class="modal fade" id="lightboxModal" tabindex="-1" aria-labelledby="lightboxModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
@@ -246,6 +245,35 @@
                         <!-- Nút Mua ngay -->
                         <div class="buy-button-container">
                             <button class="mx-auto d-flex justify-content-center align-items-center rounded-pill order-button cart-box" style="width: 250px;">
+                                <i class="fa-solid fa-eye mx-2"></i>                                <span class="fw-bold">Xem ngay</span>
+                            </button>
+                        </div>
+
+
+                        <!-- Hiển thị ảnh -->
+                        <div class="modal-image-container">
+                            <img id="modalImage" src="" class="img-fluid" alt="Full image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--Light box2 -->
+
+    <div class="modal fade" id="lightboxModal2" tabindex="-1" aria-labelledby="lightboxModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="lightbox-content">
+                        <!-- Nút Mua ngay -->
+                        <div class="buy-button-container2">
+                            <button class="mx-auto d-flex justify-content-center align-items-center rounded-pill order-button cart-box" style="width: 250px;">
                                 <i class="fa-solid fa-cart-shopping mx-2"></i>
                                 <span class="fw-bold">Mua ngay</span>
                             </button>
@@ -254,8 +282,8 @@
 
                         <!-- Hiển thị ảnh -->
                         <div class="modal-image-container">
-                            <img id="modalImage" src="" class="img-fluid" alt="Full image">
-                            <div class="modal-price" id="modalPrice">Giá: </div>
+                            <img id="modalImage2" src="" class="img-fluid" alt="Full image">
+                            <div class="modal-price" id="modalPrice2">Giá: </div>
                         </div>
                     </div>
                 </div>

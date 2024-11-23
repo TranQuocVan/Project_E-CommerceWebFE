@@ -1,6 +1,5 @@
-
 const offsetWidthSlide = document.getElementById('slide').offsetWidth;
-const offsetWidthItem = document.querySelectorAll('.item')[0].offsetWidth;
+const offsetWidthItem = document.querySelectorAll('#slide .item')[0].offsetWidth;
 const itemMargin = 20;
 const remainingPhotos = document.querySelectorAll('#slide .item').length - Math.floor((offsetWidthSlide + itemMargin) / (offsetWidthItem + itemMargin));
 
@@ -8,7 +7,7 @@ const btnNext = document.getElementById('next');
 const btnPrev = document.getElementById('prev');
 
 let current = remainingPhotos;
-const items = document.querySelectorAll('.item');
+const items = document.querySelectorAll('#slide .item');
 let currentPosition = 0;
 
 function updatePositions() {
@@ -16,38 +15,38 @@ function updatePositions() {
     items.forEach((item) => {
         item.style.left = `${position}px`;
         position += offsetWidthItem + itemMargin;
-
     });
 }
 
-document.getElementById('next').onclick = function () {
-    current--;
-    btnPrev.style.display = 'block';
-    currentPosition -= (offsetWidthItem + itemMargin); // Move left by 220px
+btnNext.onclick = function () {
+    if (current > 0) {
+        current--;
+        btnPrev.style.display = 'block';
+        currentPosition -= (offsetWidthItem + itemMargin); // Di chuyển sang trái
+        updatePositions();
 
-    updatePositions();
-
-    if (current == 0) {
-        btnNext.style.display = 'none';
+        if (current == 0) {
+            btnNext.style.display = 'none';
+        }
     }
-
 }
 
-document.getElementById('prev').onclick = function () {
-    current++;
-    btnNext.style.display = 'block';
+btnPrev.onclick = function () {
+    if (current < remainingPhotos) {
+        current++;
+        btnNext.style.display = 'block';
+        currentPosition += (offsetWidthItem + itemMargin); // Di chuyển sang phải
+        updatePositions();
 
-    currentPosition += (offsetWidthItem + itemMargin); // Move right by 220px
-    updatePositions();
-    if (current == remainingPhotos) {
-        btnPrev.style.display = 'none';
+        if (current == remainingPhotos) {
+            btnPrev.style.display = 'none';
+        }
     }
-
 }
 
 updatePositions();
 
-// Cho slide2
+// Slide 2
 const offsetWidthSlide2 = document.getElementById('slide2').offsetWidth;
 const offsetWidthItem2 = document.querySelectorAll('#slide2 .item')[0].offsetWidth;
 const remainingPhotos2 = document.querySelectorAll('#slide2 .item').length - Math.floor((offsetWidthSlide2 + itemMargin) / (offsetWidthItem2 + itemMargin));
@@ -68,25 +67,28 @@ function updatePositions2() {
 }
 
 btnNext2.onclick = function () {
-    current2--;
-    btnPrev2.style.display = 'block';
-    currentPosition2 -= (offsetWidthItem2 + itemMargin);
+    if (current2 > 0) {
+        current2--;
+        btnPrev2.style.display = 'block';
+        currentPosition2 -= (offsetWidthItem2 + itemMargin); // Di chuyển sang trái
+        updatePositions2();
 
-    updatePositions2();
-
-    if (current2 == 0) {
-        btnNext2.style.display = 'none';
+        if (current2 == 0) {
+            btnNext2.style.display = 'none';
+        }
     }
 }
 
 btnPrev2.onclick = function () {
-    current2++;
-    btnNext2.style.display = 'block';
+    if (current2 < remainingPhotos2) {
+        current2++;
+        btnNext2.style.display = 'block';
+        currentPosition2 += (offsetWidthItem2 + itemMargin); // Di chuyển sang phải
+        updatePositions2();
 
-    currentPosition2 += (offsetWidthItem2 + itemMargin);
-    updatePositions2();
-    if (current2 == remainingPhotos2) {
-        btnPrev2.style.display = 'none';
+        if (current2 == remainingPhotos2) {
+            btnPrev2.style.display = 'none';
+        }
     }
 }
 
