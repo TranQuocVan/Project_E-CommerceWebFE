@@ -20,3 +20,9 @@ icon.addEventListener('click', () => {
     }
 });
 
+
+btnLogin.addEventListener('click', () => {
+    localStorage.setItem('isLogin', true);
+
+});
+

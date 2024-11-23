@@ -83,7 +83,10 @@ const data = {
 };
 
 
-let isLogin = false;
+
+
+const isLogin = localStorage.getItem('isLogin') === 'true';
+
 
 const renderNavigation = () => {
     document.querySelector('nav').innerHTML = `
@@ -102,7 +105,7 @@ const renderNavigation = () => {
                         
                     </div>
                     <div class="col-md-3 flex-align-items-center" style="justify-content: end;">
-                        ${isLogin ? `<div class="under-navigation"></div>` : `<a href='login.html'>Login</i></a>`}
+                        ${isLogin ? `<a href='user.html'><i class="fa-regular fa-user"></i></i></a>` : `<a href='login.html'>Login</i></a>`}
                     </div>
                 </div>
             </div>

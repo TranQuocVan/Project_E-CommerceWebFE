@@ -27,7 +27,6 @@ body.addEventListener('scroll', function () {
     if (scale < 0.8) {
         scale = 0.8;
     }
-    console.log(scale);
 
     document.querySelector('.video').style.transform = 'scale(' + scale + ')';
 });
