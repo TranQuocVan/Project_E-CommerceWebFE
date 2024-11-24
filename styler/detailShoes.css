@@ -1,10 +1,7 @@
-span{
-    font-size: 17px;
-    font-weight: 400;
-}
 body {
     font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
+
 .img-detail {
     margin-right: 60px;
 }
@@ -15,27 +12,37 @@ body {
     width: auto;
     border-radius: 30px;
     object-fit: contain;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3); /* Tạo bóng cho ảnh */
-    transition: transform 0.3s, box-shadow 0.3s; /* Thêm hiệu ứng chuyển tiếp */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    /* Tạo bóng cho ảnh */
+    transition: transform 0.3s, box-shadow 0.3s;
+    /* Thêm hiệu ứng chuyển tiếp */
 }
 
 .img-detail img:hover {
-    transform: scale(1.05) rotateY(5deg); /* Tăng kích thước và xoay nhẹ khi hover */
-    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5); /* Tăng độ bóng khi hover */
+    transform: scale(1.05) rotateY(5deg);
+    /* Tăng kích thước và xoay nhẹ khi hover */
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+    /* Tăng độ bóng khi hover */
 }
 
-.size-box, .sl-box,.cart-box {
+.size-box,
+.sl-box,
+.cart-box {
     width: 100px;
     height: 50px;
     border: solid 2px black;
     cursor: pointer;
 
 }
+
 .size-box:hover,
 .size-box.active {
-    background-color: black; /* Màu nền khi hover */
-    color: white; /* Màu chữ khi hover */
-    cursor: pointer; /* Thay đổi con trỏ để gợi ý rằng nút có thể nhấn */
+    background-color: black;
+    /* Màu nền khi hover */
+    color: white;
+    /* Màu chữ khi hover */
+    cursor: pointer;
+    /* Thay đổi con trỏ để gợi ý rằng nút có thể nhấn */
 }
 
 .info i {
@@ -44,9 +51,12 @@ body {
 
 
 .order-button:hover {
-    background-color: black; /* Màu nền khi hover */
-    color: white; /* Màu chữ khi hover */
-    cursor: pointer; /* Thay đổi con trỏ để gợi ý rằng nút có thể nhấn */
+    background-color: black;
+    /* Màu nền khi hover */
+    color: white;
+    /* Màu chữ khi hover */
+    cursor: pointer;
+    /* Thay đổi con trỏ để gợi ý rằng nút có thể nhấn */
 }
 
 .icon-bordered {
@@ -75,7 +85,7 @@ body {
     left: -8px;
     right: -8px;
     bottom: -8px;
-    border-radius:10%;
+    border-radius: 10%;
     border: 2px solid #000;
     opacity: 0;
     transition: all 0.3s ease;
@@ -133,10 +143,11 @@ body {
 
     .img-detail {
         margin-right: 0;
-        order: -1; /* Đưa ảnh chính lên trên */
+        order: -1;
+        /* Đưa ảnh chính lên trên */
     }
 }
+
 .characteristic h3 {
     margin-top: 30px;
 }
-

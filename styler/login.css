@@ -89,10 +89,10 @@
 
 }
 
-#alterClick {
+/* #alterClick {
     display: none;
     animation: alterClick 3s;
-}
+} */
 
 @keyframes btnLogin {
     from {

@@ -1,6 +1,6 @@
 const nameLogin = document.getElementById('nameLogin');
 const inputName = document.getElementById('inputName');
-const icon = document.querySelector('.fa-circle-right');
+const icon = document.querySelector('#icon');
 const inputPass = document.getElementById('inputPass');
 const btnLogin = document.getElementById('btnLogin');
 
@@ -15,7 +15,7 @@ nameLogin.addEventListener('blur', () => {
 });
 
 // Xử lý sự kiện login
-btnLogin.addEventListener('click', () => {
+icon.addEventListener('click', () => {
     if (nameLogin.value != '') {
         inputPass.style.display = 'block';
         btnLogin.style.display = 'block';
@@ -23,7 +23,6 @@ btnLogin.addEventListener('click', () => {
 
     }
 });
-
 
 btnLogin.addEventListener('click', () => {
     localStorage.setItem('isLogin', true);
