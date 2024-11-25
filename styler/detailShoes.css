@@ -151,3 +151,85 @@ body {
 .characteristic h3 {
     margin-top: 30px;
 }
+
+
+.color-listProduct {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+
+}
+
+.color-listProduct div {
+    margin-right: 5px;
+    padding: 1px 2px;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.color-listProduct div button {
+    cursor: pointer;
+    height: 72px;
+    width: 53px;
+    border-radius: 20px;
+    border: none;
+
+}
+
+.color-listProduct div:hover {
+    border: 2px solid #000;
+
+}
+
+.nameColor {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    color: transparent;
+}
+
+.option h3 {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.option-size {
+    align-items: center;
+    background-color: #d9d9d9;
+    border-radius: 16px;
+    color: #000;
+    cursor: pointer;
+    display: flex;
+    height: 40px;
+    justify-content: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    position: relative;
+    transition: all .3s;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    width: 100%;
+    border: none;
+    padding: 0 18px;
+}
+
+.option-size:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.addToCard {
+    background-color: #000;
+    color: #fff;
+    width: 100%;
+}
+
+.policy {
+    font-size: 12px;
+}
