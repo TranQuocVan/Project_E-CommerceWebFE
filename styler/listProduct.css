@@ -253,3 +253,8 @@
     transition: 0.3s;
     margin-right: 10px;
 }
+
+.custom-center {
+    text-align: center;
+    width: 100%;
+}

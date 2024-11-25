@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54457fa7-b39b-4e35-bc7a-8ead73accfb6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/shoppingCart.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styler/shoppingCart.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/detailShoes.html" beforeDir="false" afterPath="$PROJECT_DIR$/detailShoes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shoes.html" beforeDir="false" afterPath="$PROJECT_DIR$/shoes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styler/detailShoes.css" beforeDir="false" afterPath="$PROJECT_DIR$/styler/detailShoes.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styler/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/styler/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/listShoeAdidas.html" beforeDir="false" afterPath="$PROJECT_DIR$/listShoeAdidas.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styler/listProduct.css" beforeDir="false" afterPath="$PROJECT_DIR$/styler/listProduct.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styler/shoppingCart.css" beforeDir="false" afterPath="$PROJECT_DIR$/styler/shoppingCart.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,6 +147,7 @@
       <workItem from="1732202184858" duration="3550000" />
       <workItem from="1732205996852" duration="960000" />
       <workItem from="1732286088029" duration="5476000" />
+      <workItem from="1732542756192" duration="7641000" />
     </task>
     <servers />
   </component>
