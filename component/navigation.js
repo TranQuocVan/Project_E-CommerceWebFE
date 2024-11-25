@@ -59,7 +59,7 @@ const data = {
             col1List: [
                 { name: 'Dép nam', url: 'menSandal.html' },
                 { name: 'Dép nữ', url: 'womenSandals.html' },
-                { name: 'Dép trẻ em' },
+                { name: 'Dép trẻ em', url: 'kid.html' },
             ]
         },
         {
