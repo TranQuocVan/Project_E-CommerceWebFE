@@ -57,9 +57,9 @@ const data = {
         {
             col1: 'Khám phá các loại dép',
             col1List: [
-                { name: 'Dép nam' },
+                { name: 'Dép nam', url: 'menSandal.html' },
                 { name: 'Dép nữ', url: 'womenSandals.html' },
-                { name: 'Dép trẻ em' },
+                { name: 'Dép trẻ em', url: 'kid.html' },
             ]
         },
         {
