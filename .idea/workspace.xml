@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54457fa7-b39b-4e35-bc7a-8ead73accfb6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/sandal.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/component/navigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/component/navigation.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shoppingCart.html" beforeDir="false" afterPath="$PROJECT_DIR$/shoppingCart.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styler/shoppingCart.css" beforeDir="false" afterPath="$PROJECT_DIR$/styler/shoppingCart.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/womenSandals.html" beforeDir="false" afterPath="$PROJECT_DIR$/womenSandals.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,9 +20,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="TypeScript File" />
-        <option value="HTML File" />
         <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -156,6 +156,8 @@
       <workItem from="1732637292579" duration="3457000" />
       <workItem from="1732692961471" duration="6747000" />
       <workItem from="1732714989024" duration="2676000" />
+      <workItem from="1732718486539" duration="1385000" />
+      <workItem from="1732720177759" duration="3324000" />
     </task>
     <servers />
   </component>
@@ -179,7 +181,6 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/component/navigation.js</url>
           <line>1</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

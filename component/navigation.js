@@ -96,7 +96,7 @@ const renderNavigation = () => {
                         <span class="navigation"><a href="index.html"><img style="width: 20px;" src="assets/logo2.svg" alt="logo"></a></span>
                         <span class="navigation" id="shop"><a href="index.html">Cửa hàng</a></span>
                         <span class="navigation" id="shoe"><a href="shoes.html">Giày</a></span>
-                        <span class="navigation" id="sandal"><a href="#">Dép</a></span> 
+                        <span class="navigation" id="sandal"><a href="sandal.html">Dép</a></span> 
                         <span class="navigation"><a href="#">Sản phẩm khuyến mãi</a></span>
                         <span class="navigation"><a href="#">Sản phẩm mới ra mắt</a></span>
                         <span class="navigation"><a href="#">Sản phẩm dành cho bé</a></span>
@@ -107,7 +107,7 @@ const renderNavigation = () => {
                      ${isLogin
                      ? `<a href='user.html'><i class="fa-solid fa-user"></i></a> 
                         <a href='shoppingCart.html'><i class="fa-solid fa-cart-shopping"></i></a>
-                        <a href='statusShoes.html'><i class="fa-solid fa-circle-info"></i></a>`
+                        <a href='statusShoes.html'><i class="fa-solid fa-truck-moving"></i></a>`
                      : `<a href='login.html'>Login</a>`}
                      </div>
 
