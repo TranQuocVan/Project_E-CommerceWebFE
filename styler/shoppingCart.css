@@ -17,3 +17,6 @@ input[type="number"] {
 .text-body{
     font-size: 20px
 }
+.hover-red:hover {
+    color: red !important;
+}
