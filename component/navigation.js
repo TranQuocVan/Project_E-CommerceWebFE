@@ -1,55 +1,56 @@
+
 const data = {
     shop: [{
-            col1: 'Mua hàng',
-            col1List: [
-                { name: 'Mua Sản Phẩm Mới Nhất' },
-                { name: 'Giày' },
-                { name: 'Dép' },
-                { name: 'Thương Hiệu' },
-                { name: 'Phụ kiện' }
-            ]
-        },
+        col1: 'Mua hàng',
+        col1List: [
+            {name: 'Mua Sản Phẩm Mới Nhất'},
+            {name: 'Giày'},
+            {name: 'Dép'},
+            {name: 'Thương Hiệu'},
+            {name: 'Phụ kiện'}
+        ]
+    },
         {
             col2: 'Chính sách',
             col2List: [
-                { name: 'Chính sách bảo mật' },
-                { name: 'Chính sách vận chuyển' },
-                { name: 'Chính sách đổi trả' }
+                {name: 'Chính sách bảo mật'},
+                {name: 'Chính sách vận chuyển'},
+                {name: 'Chính sách đổi trả'}
             ]
         },
         {
             col3: 'Liên hệ',
             col3List: [
-                { name: 'Liên hệ hotline' },
-                { name: 'Liên hệ email' }
+                {name: 'Liên hệ hotline'},
+                {name: 'Liên hệ email'}
             ]
         }
     ],
     shoe: [{
-            col1: 'Khám phá các loại giày',
-            col1List: [
-                { name: 'Giày thể thao nam', url: 'men\'sSportsShoes.html' },
-                { name: 'Giày thể thao nữ', url: 'womenShoes.html' },
-                { name: 'Giày công sở' },
-                { name: 'Giày cao gót' },
-            ]
-        },
+        col1: 'Khám phá các loại giày',
+        col1List: [
+            {name: 'Giày thể thao nam', url: 'men\'sSportsShoes.html'},
+            {name: 'Giày thể thao nữ', url: 'womenShoes.html'},
+            {name: 'Giày công sở'},
+            {name: 'Giày cao gót'},
+        ]
+    },
         {
             col2: 'Mua giày',
             col2List: [
-                { name: 'Giày nam' },
-                { name: 'Giày nữ' },
-                { name: 'Giày trẻ em' }
+                {name: 'Giày nam'},
+                {name: 'Giày nữ'},
+                {name: 'Giày trẻ em'}
             ]
         },
         {
             col3: 'Thương hiệu',
             col3List: [
-                { name: 'Adidas' },
-                { name: 'Nike' },
-                { name: 'Converse' },
-                { name: 'Puma' },
-                { name: 'Vans' }
+                {name: 'Adidas'},
+                {name: 'Nike'},
+                {name: 'Converse'},
+                {name: 'Puma'},
+                {name: 'Vans'}
             ]
         }
     ],
@@ -57,39 +58,37 @@ const data = {
         {
             col1: 'Khám phá các loại dép',
             col1List: [
-                { name: 'Dép nam', url: 'menSandal.html' },
-                { name: 'Dép nữ', url: 'womenSandals.html' },
-                { name: 'Dép trẻ em', url: 'kid.html' },
+                {name: 'Dép nam', url: 'menSandal.html'},
+                {name: 'Dép nữ', url: 'womenSandals.html'},
+                {name: 'Dép trẻ em', url: 'kid.html'},
             ]
         },
         {
             col2: 'Mua dép',
             col2List: [
-                { name: 'Dép nam' },
-                { name: 'Dép nữ' },
-                { name: 'Dép trẻ em' }
+                {name: 'Dép nam'},
+                {name: 'Dép nữ'},
+                {name: 'Dép trẻ em'}
             ]
         },
         {
             col3: 'Thương hiệu',
             col3List: [
-                { name: 'Havaianas' },
-                { name: 'Crocs' },
-                { name: 'Nike' },
-                { name: 'Adidas' }
+                {name: 'Havaianas'},
+                {name: 'Crocs'},
+                {name: 'Nike'},
+                {name: 'Adidas'}
             ]
         }
     ]
 };
 
 
-
-
 const isLogin = localStorage.getItem('isLogin') === 'true';
 
 
 const renderNavigation = () => {
-        document.querySelector('nav').innerHTML = `
+    document.querySelector('nav').innerHTML = `
         <div id="navigation" class="container-fluid main-bg-color">
             <div class="container">
                 <div style="font-size: 20px;" class="row">
@@ -105,8 +104,14 @@ const renderNavigation = () => {
                         
                     </div>
                     <div class="col-md-3 flex-align-items-center" style="justify-content: end;">
-                        ${isLogin ? `<a href='user.html'><i class="fa-regular fa-user"></i></i></a>` : `<a href='login.html'>Login</i></a>`}
-                    </div>
+                     ${isLogin
+                     ? `<a href='user.html'><i class="fa-solid fa-user"></i></a> 
+                        <a href='shoppingCart.html'><i class="fa-solid fa-cart-shopping"></i></a>
+                        <a href='statusShoes.html'><i class="fa-solid fa-circle-info"></i></a>`
+                     : `<a href='login.html'>Login</a>`}
+                     </div>
+
+
                 </div>
             </div>
         </div>
@@ -119,7 +124,6 @@ const renderNavigation = () => {
         <div id="under-nav" style="z-index: 1000;" class="container-fluid content-when-hover main-bg-color"></div>`;
 };
 renderNavigation();
-
 
 
 const contentWhenHover = document.querySelector('.content-when-hover');
