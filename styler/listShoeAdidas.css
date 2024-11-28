@@ -263,3 +263,7 @@
     margin-right: 4px;
     margin-bottom: 4px;
 }
+
+.product-link:hover .name-product {
+    color: #FF4500; /* Màu chữ khi hover */
+}
