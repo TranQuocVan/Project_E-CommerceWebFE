@@ -1,3 +1,4 @@
+
 .modal-body {
     text-align: center;
     position: relative;
@@ -8,11 +9,13 @@
     display: inline-block;
 }
 
-#modalImage {
+#modalImage , #modalImage2 {
+    width: auto ;
     max-width: 100%;
-    height: auto;
+    max-height: 98vh;
     display: block;
 }
+
 
 .buy-button-container {
     position: absolute;
@@ -68,7 +71,7 @@
 
 .modal-price {
     font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
-    font-size: 28px;
+    font-size: 20px;
     font-weight: 600;
     letter-spacing: .007em;
     line-height: 1.1428571429;
@@ -80,5 +83,23 @@
     padding: 5px 15px;
     border-radius: 5px;
 }
+.modal-dialog {
+    max-width: 100%; /* Để modal khớp với hình ảnh */
+    margin: 0 auto; /* Canh giữa modal */
+    display: flex;
+    align-items: center; /* Căn giữa theo chiều dọc */
+    justify-content: center; /* Căn giữa theo chiều ngang */
+}
+
+.modal-content {
+    background: none; /* Xóa màu nền của modal */
+    border: none; /* Xóa đường viền của modal */
+    padding: 0;
+    max-width: fit-content; /* Đảm bảo modal chỉ rộng bằng nội dung */
+}
+
+
+
+
 
 
