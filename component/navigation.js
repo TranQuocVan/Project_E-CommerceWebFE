@@ -97,7 +97,7 @@ const renderNavigation = () => {
                         <span class="navigation" id="shop"><a href="index.html">Cửa hàng</a></span>
                         <span class="navigation" id="shoe"><a href="shoes.html">Giày</a></span>
                         <span class="navigation" id="sandal"><a href="sandal.html">Dép</a></span> 
-                        <span class="navigation"><a href="#">Sản phẩm khuyến mãi</a></span>
+                        <span class="navigation"><a href="promotionShoes.html">Sản phẩm khuyến mãi</a></span>
                         <span class="navigation"><a href="#">Sản phẩm mới ra mắt</a></span>
                         <span class="navigation"><a href="#">Sản phẩm dành cho bé</a></span>
                        
