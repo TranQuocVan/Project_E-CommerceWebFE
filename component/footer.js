@@ -47,14 +47,40 @@ document.querySelector("footer").innerHTML = `
             <div>
                 <span>địa chỉ: VQCR+GP6, khu phố 6, Thủ Đức, Hồ Chí Minh</span>
             </div>
-            <div class="col-md-12 social" style="display: flex;align-items: center; gap: 10px">
+<div class="col-md-12 social" style="display: flex; align-items: center; gap: 10px;">
     <span>theo dõi chúng tôi: </span>
-    <a href="https://www.facebook.com/yourpage" target="_blank" style="text-decoration: none; color: inherit; margin-right: 5px;" onmouseover="this.style.color='#3b5998'" onmouseout="this.style.color='inherit'" onclick="this.style.color='#3b5998'">Facebook |</a>
-    <a href="https://www.instagram.com/yourprofile" target="_blank" style="text-decoration: none; color: inherit; margin-right: 5px;" onmouseover="this.style.color='#C13584'" onmouseout="this.style.color='inherit'" onclick="this.style.color='#C13584'">Instagram |</a>
-    <a href="https://twitter.com/yourprofile" target="_blank" style="text-decoration: none; color: inherit; margin-right: 5px;" onmouseover="this.style.color='#1DA1F2'" onmouseout="this.style.color='inherit'" onclick="this.style.color='#1DA1F2'">Twitter |</a>
-    <a href="https://www.tiktok.com/@yourprofile" target="_blank" style="text-decoration: none; color: inherit; margin-right: 5px;" onmouseover="this.style.color='#000000'" onmouseout="this.style.color='inherit'" onclick="this.style.color='#22e6cb'">TikTok |</a>
-    <a href="https://www.youtube.com/channel/yourchannel" target="_blank" style="text-decoration: none; color: inherit;" onmouseover="this.style.color='#FF0000'" onmouseout="this.style.color='inherit'" onclick="this.style.color='#FF0000'">YouTube</a>
+    <a href="https://www.facebook.com/yourpage" target="_blank" 
+       style="text-decoration: underline; color: inherit;" 
+       onmouseover="this.style.color='#3b5998'" 
+       onmouseout="this.style.color='inherit'" 
+       onclick="this.style.color='#3b5998'">Facebook</a>
+    <span>|</span>
+    <a href="https://www.instagram.com/yourprofile" target="_blank" 
+       style="text-decoration: underline; color: inherit;" 
+       onmouseover="this.style.color='#C13584'" 
+       onmouseout="this.style.color='inherit'" 
+       onclick="this.style.color='#C13584'">Instagram</a>
+    <span>|</span>
+    <a href="https://twitter.com/yourprofile" target="_blank" 
+       style="text-decoration: underline; color: inherit;" 
+       onmouseover="this.style.color='#1DA1F2'" 
+       onmouseout="this.style.color='inherit'" 
+       onclick="this.style.color='#1DA1F2'">Twitter</a>
+    <span>|</span>
+    <a href="https://www.tiktok.com/@yourprofile" target="_blank" 
+       style="text-decoration: underline; color: inherit;" 
+       onmouseover="this.style.color='#69C9D0'" 
+       onmouseout="this.style.color='inherit'" 
+       onclick="this.style.color='#69C9D0'">TikTok</a>
+    <span>|</span>
+    <a href="https://www.youtube.com/channel/yourchannel" target="_blank" 
+       style="text-decoration: underline; color: inherit;" 
+       onmouseover="this.style.color='#FF0000'" 
+       onmouseout="this.style.color='inherit'" 
+       onclick="this.style.color='#FF0000'">YouTube</a>
 </div>
+
+
 
         </div>
     </div>
