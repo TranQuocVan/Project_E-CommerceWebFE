@@ -1,57 +1,57 @@
 const data = {
     shop: [{
-            col1: 'Mua hàng',
-            col1List: [
-                { name: 'Mua Sản Phẩm Mới Nhất' },
-                { name: 'Giày' },
-                { name: 'Dép' },
-                { name: 'Thương Hiệu' },
-                { name: 'Phụ kiện' }
-            ]
-        },
-        {
-            col2: 'Chính sách',
-            col2List: [
-                { name: 'Chính sách bảo mật' },
-                { name: 'Chính sách vận chuyển' },
-                { name: 'Chính sách đổi trả' }
-            ]
-        },
-        {
-            col3: 'Liên hệ',
-            col3List: [
-                { name: 'Liên hệ hotline' },
-                { name: 'Liên hệ email' }
-            ]
-        }
+        col1: 'Mua hàng',
+        col1List: [
+            { name: 'Mua Sản Phẩm Mới Nhất' },
+            { name: 'Giày' },
+            { name: 'Dép' },
+            { name: 'Thương Hiệu' },
+            { name: 'Phụ kiện' }
+        ]
+    },
+    {
+        col2: 'Chính sách',
+        col2List: [
+            { name: 'Chính sách bảo mật' },
+            { name: 'Chính sách vận chuyển' },
+            { name: 'Chính sách đổi trả' }
+        ]
+    },
+    {
+        col3: 'Liên hệ',
+        col3List: [
+            { name: 'Liên hệ hotline' },
+            { name: 'Liên hệ email' }
+        ]
+    }
     ],
     shoe: [{
-            col1: 'Khám phá các loại giày',
-            col1List: [
-                { name: 'Giày thể thao nam', url: 'men\'sSportsShoes.html' },
-                { name: 'Giày thể thao nữ', url: 'womenShoes.html' },
-                { name: 'Giày công sở' },
-                { name: 'Giày cao gót' },
-            ]
-        },
-        {
-            col2: 'Mua giày',
-            col2List: [
-                { name: 'Giày nam' },
-                { name: 'Giày nữ' },
-                { name: 'Giày trẻ em' }
-            ]
-        },
-        {
-            col3: 'Thương hiệu',
-            col3List: [
-                { name: 'Adidas' },
-                { name: 'Nike' },
-                { name: 'Converse' },
-                { name: 'Puma' },
-                { name: 'Vans' }
-            ]
-        }
+        col1: 'Khám phá các loại giày',
+        col1List: [
+            { name: 'Giày thể thao nam', url: 'men\'sSportsShoes.html' },
+            { name: 'Giày thể thao nữ', url: 'womenShoes.html' },
+            { name: 'Giày công sở' },
+            { name: 'Giày cao gót' },
+        ]
+    },
+    {
+        col2: 'Mua giày',
+        col2List: [
+            { name: 'Giày nam' },
+            { name: 'Giày nữ' },
+            { name: 'Giày trẻ em' }
+        ]
+    },
+    {
+        col3: 'Thương hiệu',
+        col3List: [
+            { name: 'Adidas' },
+            { name: 'Nike' },
+            { name: 'Converse' },
+            { name: 'Puma' },
+            { name: 'Vans' }
+        ]
+    }
     ],
     sandal: [ // Thêm dữ liệu cho Dép
         {
@@ -89,7 +89,7 @@ const isLogin = localStorage.getItem('isLogin') === 'true';
 
 
 const renderNavigation = () => {
-        document.querySelector('nav').innerHTML = `
+    document.querySelector('nav').innerHTML = `
         <div id="navigation" class="container-fluid main-bg-color">
             <div class="container">
                 <div style="font-size: 20px;" class="row">
@@ -210,3 +210,5 @@ underNav.addEventListener('mouseleave', () => {
         }
     }, 300);
 });
+
+

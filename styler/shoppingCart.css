@@ -24,26 +24,4 @@ h6 , .text-body{
     font-size: 20px ;
     font-weight: 400;
 }
-.quantity-control {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.quantity-control button {
-    padding: 0;
-    background: none;
-    border: none;
-    font-size: 20px;
-    cursor: pointer;
-}
-
-.quantity-control input {
-    width: 50px;
-    text-align: center;
-    margin: 0 10px;
-    padding: 5px;
-    font-size: 16px;
-
-}
-
+ 
