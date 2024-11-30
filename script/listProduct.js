@@ -53,3 +53,4 @@ Array.from(imgProductListProdcts).forEach((img, index) => {
 
 
 });
+
