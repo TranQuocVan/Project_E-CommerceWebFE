@@ -49,7 +49,7 @@ document.querySelector("footer").innerHTML = `
             </div>
 <div class="col-md-12 social" style="display: flex; align-items: center; gap: 10px;">
     <span>theo dõi chúng tôi: </span>
-    <a href="https://www.facebook.com/yourpage" target="_blank" 
+    <a href="https://www.facebook.com" target="_blank" 
        style="text-decoration: underline; color: inherit;" 
        onmouseover="this.style.color='#3b5998'" 
        onmouseout="this.style.color='inherit'" 
