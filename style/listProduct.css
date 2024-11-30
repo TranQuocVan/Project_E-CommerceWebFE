@@ -1,5 +1,3 @@
-#filter {}
-
 #size {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -114,10 +112,14 @@
 
 }
 
-.color-listProduct div:hover {
-    border: 2px solid #000;
+
+
+.option-collor button:hover {
+    padding: 10px;
 
 }
+
+
 
 .product-listProdct .name-product {
     font-size: 14px;
@@ -254,6 +256,27 @@
     margin-right: 10px;
 }
 
+
+
+
+
+
+
+
+
+.color-listProduct div:hover {
+    border: 2px solid #000;
+
+}
+
+.nameColor {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    color: transparent;
+}
+
 .custom-center {
     text-align: center;
     width: 100%;
@@ -265,5 +288,15 @@
 }
 
 .product-link:hover .name-product {
-    color: #FF4500; /* Màu chữ khi hover */
+    color: #FF4500;
+    /* Màu chữ khi hover */
+}
+
+.button-spacing {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.optionColorOnClicked {
+    border: 2px solid #000 !important;
 }

@@ -1,4 +1,3 @@
-
 .modal-body {
     text-align: center;
     position: relative;
@@ -10,13 +9,14 @@
 }
 
 #modalImage {
-    width: auto ;
+    width: auto;
     max-width: 100%;
     max-height: 94vh;
     display: block;
 }
- #modalImage2 {
-    width: auto ;
+
+#modalImage2 {
+    width: auto;
     max-width: 100%;
     max-height: 87vh;
     display: block;
@@ -89,31 +89,38 @@
     padding: 5px 15px;
     border-radius: 5px;
 }
+
 .modal-dialog {
-    max-width: 100%; /* Để modal khớp với hình ảnh */
-    margin: 0 auto; /* Canh giữa modal */
+    max-width: 100%;
+    /* Để modal khớp với hình ảnh */
+    margin: 0 auto;
+    /* Canh giữa modal */
     display: flex;
-    align-items: center; /* Căn giữa theo chiều dọc */
-    justify-content: center; /* Căn giữa theo chiều ngang */
+    align-items: center;
+    /* Căn giữa theo chiều dọc */
+    justify-content: center;
+    /* Căn giữa theo chiều ngang */
 }
 
 .modal-content {
-    background: none; /* Xóa màu nền của modal */
-    border: none; /* Xóa đường viền của modal */
+    background: none;
+    /* Xóa màu nền của modal */
+    border: none;
+    /* Xóa đường viền của modal */
     padding: 0;
-    max-width: fit-content; /* Đảm bảo modal chỉ rộng bằng nội dung */
+    max-width: fit-content;
+    /* Đảm bảo modal chỉ rộng bằng nội dung */
 }
 
 /* Đảm bảo trang gốc vẫn có thể cuộn */
 body.modal-open {
-    overflow: auto;  /* Trang chính vẫn cuộn bình thường */
+    overflow: auto;
+    /* Trang chính vẫn cuộn bình thường */
 }
 
 .modal-open {
-    overflow: hidden; /* Ẩn thanh cuộn */
-    padding-right: 17px; /* Giữ khoảng cách cho thanh cuộn */
+    overflow: hidden;
+    /* Ẩn thanh cuộn */
+    padding-right: 17px;
+    /* Giữ khoảng cách cho thanh cuộn */
 }
-
-
-
-

@@ -79,19 +79,19 @@ document.querySelector('.img-detail img').addEventListener('mouseleave', functio
 
 
 const optionColor = document.querySelectorAll('.option-collor');
-const colorDetail = document.querySelector('#colorDetail');
-
 optionColor.forEach((color) => {
     color.addEventListener('click', function () {
+
         const nameColor = color.querySelector('.nameColor');
         colorDetail.innerHTML = `<h3>Màu sắc : ${nameColor.textContent} </h3>`;
+
+
+
 
     });
 });
 
-const sizeDetail = document.querySelector('#sizeDetail');
 const optionSize = document.querySelectorAll('.option-size');
-
 optionSize.forEach((size) => {
     size.addEventListener('click', function () {
         const nameSize = size.querySelector('span');
