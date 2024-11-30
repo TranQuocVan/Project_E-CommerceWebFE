@@ -9,10 +9,16 @@
     display: inline-block;
 }
 
-#modalImage , #modalImage2 {
+#modalImage {
     width: auto ;
     max-width: 100%;
-    max-height: 98vh;
+    max-height: 94vh;
+    display: block;
+}
+ #modalImage2 {
+    width: auto ;
+    max-width: 100%;
+    max-height: 87vh;
     display: block;
 }
 
@@ -98,7 +104,15 @@
     max-width: fit-content; /* Đảm bảo modal chỉ rộng bằng nội dung */
 }
 
+/* Đảm bảo trang gốc vẫn có thể cuộn */
+body.modal-open {
+    overflow: auto;  /* Trang chính vẫn cuộn bình thường */
+}
 
+.modal-open {
+    overflow: hidden; /* Ẩn thanh cuộn */
+    padding-right: 17px; /* Giữ khoảng cách cho thanh cuộn */
+}
 
 
 

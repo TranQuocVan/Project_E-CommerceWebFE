@@ -12,3 +12,20 @@ function changeStatus(selected) {
     selected.classList.add('active');
     selected.style.textDecoration = 'underline'; // Thêm gạch dưới
 }
+
+function openLightbox() {
+    const lightbox = document.getElementById("orderLightbox");
+    lightbox.style.display = "flex"; // Hiện lightbox
+}
+
+function closeLightbox() {
+    const lightbox = document.getElementById("orderLightbox");
+    lightbox.style.display = "none"; // Ẩn lightbox
+}
+
+// Đóng lightbox khi nhấn ngoài lightbox-content
+document.getElementById("orderLightbox").addEventListener("click", function (event) {
+    if (event.target === this) {
+        closeLightbox();
+    }
+});

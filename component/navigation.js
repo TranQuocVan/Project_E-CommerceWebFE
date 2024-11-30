@@ -1,56 +1,55 @@
-
 const data = {
     shop: [{
-        col1: 'Mua hàng',
-        col1List: [
-            {name: 'Mua Sản Phẩm Mới Nhất'},
-            {name: 'Giày'},
-            {name: 'Dép'},
-            {name: 'Thương Hiệu'},
-            {name: 'Phụ kiện'}
-        ]
-    },
+            col1: 'Mua hàng',
+            col1List: [
+                { name: 'Mua Sản Phẩm Mới Nhất' },
+                { name: 'Giày', url: 'shoes.html' },
+                { name: 'Dép', url: 'sandal.html' },
+                { name: 'Thương Hiệu' },
+                { name: 'Phụ kiện' }
+            ]
+        },
         {
             col2: 'Chính sách',
             col2List: [
-                {name: 'Chính sách bảo mật'},
-                {name: 'Chính sách vận chuyển'},
-                {name: 'Chính sách đổi trả'}
+                { name: 'Chính sách bảo mật' },
+                { name: 'Chính sách vận chuyển' },
+                { name: 'Chính sách đổi trả' }
             ]
         },
         {
             col3: 'Liên hệ',
             col3List: [
-                {name: 'Liên hệ hotline'},
-                {name: 'Liên hệ email'}
+                { name: 'Liên hệ hotline' },
+                { name: 'Liên hệ email' }
             ]
         }
     ],
     shoe: [{
-        col1: 'Khám phá các loại giày',
-        col1List: [
-            {name: 'Giày thể thao nam', url: 'men\'sSportsShoes.html'},
-            {name: 'Giày thể thao nữ', url: 'womenShoes.html'},
-            {name: 'Giày công sở'},
-            {name: 'Giày cao gót'},
-        ]
-    },
+            col1: 'Khám phá các loại giày',
+            col1List: [
+                { name: 'Giày thể thao nam', url: 'men\'sSportsShoes.html' },
+                { name: 'Giày thể thao nữ', url: 'womenShoes.html' },
+                { name: 'Giày công sở' },
+                { name: 'Giày cao gót' },
+            ]
+        },
         {
             col2: 'Mua giày',
             col2List: [
-                {name: 'Giày nam'},
-                {name: 'Giày nữ'},
-                {name: 'Giày trẻ em'}
+                { name: 'Giày nam' },
+                { name: 'Giày nữ' },
+                { name: 'Giày trẻ em' }
             ]
         },
         {
             col3: 'Thương hiệu',
             col3List: [
-                {name: 'Adidas'},
-                {name: 'Nike'},
-                {name: 'Converse'},
-                {name: 'Puma'},
-                {name: 'Vans'}
+                { name: 'Adidas' },
+                { name: 'Nike' },
+                { name: 'Converse' },
+                { name: 'Puma' },
+                { name: 'Vans' }
             ]
         }
     ],
@@ -58,26 +57,26 @@ const data = {
         {
             col1: 'Khám phá các loại dép',
             col1List: [
-                {name: 'Dép nam', url: 'menSandal.html'},
-                {name: 'Dép nữ', url: 'womenSandals.html'},
-                {name: 'Dép trẻ em', url: 'kid.html'},
+                { name: 'Dép nam', url: 'menSandal.html' },
+                { name: 'Dép nữ', url: 'womenSandals.html' },
+                { name: 'Dép trẻ em', url: 'kid.html' },
             ]
         },
         {
             col2: 'Mua dép',
             col2List: [
-                {name: 'Dép nam'},
-                {name: 'Dép nữ'},
-                {name: 'Dép trẻ em'}
+                { name: 'Dép nam' },
+                { name: 'Dép nữ' },
+                { name: 'Dép trẻ em' }
             ]
         },
         {
             col3: 'Thương hiệu',
             col3List: [
-                {name: 'Havaianas'},
-                {name: 'Crocs'},
-                {name: 'Nike'},
-                {name: 'Adidas'}
+                { name: 'Havaianas' },
+                { name: 'Crocs' },
+                { name: 'Nike' },
+                { name: 'Adidas' }
             ]
         }
     ]
@@ -88,7 +87,7 @@ const isLogin = localStorage.getItem('isLogin') === 'true';
 
 
 const renderNavigation = () => {
-    document.querySelector('nav').innerHTML = `
+        document.querySelector('nav').innerHTML = `
         <div id="navigation" class="container-fluid main-bg-color">
             <div class="container">
                 <div style="font-size: 20px;" class="row">
@@ -99,7 +98,6 @@ const renderNavigation = () => {
                         <span class="navigation" id="sandal"><a href="sandal.html">Dép</a></span> 
                         <span class="navigation"><a href="promotionShoes.html">Sản phẩm khuyến mãi</a></span>
                         <span class="navigation"><a href="#">Sản phẩm mới ra mắt</a></span>
-                        <span class="navigation"><a href="#">Sản phẩm dành cho bé</a></span>
                        
                         
                     </div>
