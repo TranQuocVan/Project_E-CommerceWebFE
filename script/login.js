@@ -15,7 +15,7 @@ nameLogin.addEventListener('blur', () => {
 });
 
 // Xử lý sự kiện login
-icon.addEventListener('click', () => {
+icon?.addEventListener('click', () => {
     if (nameLogin.value != '') {
         inputPass.style.display = 'block';
         btnLogin.style.display = 'block';
@@ -24,7 +24,7 @@ icon.addEventListener('click', () => {
     }
 });
 
-btnLogin.addEventListener('click', () => {
+btnLogin?.addEventListener('click', () => {
     localStorage.setItem('isLogin', true);
 
 });
