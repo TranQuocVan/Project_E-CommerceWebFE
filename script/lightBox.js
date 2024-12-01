@@ -41,3 +41,24 @@ thumbnailsSlide.forEach(thumbnail => {
         buyButton.setAttribute('data-price', imagePrice);
     });
 });
+
+function openModal() {
+    document.body.classList.add('modal-open'); // Thêm lớp để giữ kích thước
+}
+
+// Hàm để đóng modal
+function closeModal() {
+    document.body.classList.remove('modal-open'); // Xóa lớp khi đóng
+}
+
+// Gọi hàm openModal khi modal mở
+document.getElementById('lightboxModal').addEventListener('show.bs.modal', openModal);
+// Gọi hàm closeModal khi modal đóng
+document.getElementById('lightboxModal').addEventListener('hide.bs.modal', closeModal);
+// ... existing code ...
+// Gọi hàm openModal khi modal mở
+document.getElementById('lightboxModal2').addEventListener('show.bs.modal', openModal);
+// Gọi hàm closeModal khi modal đóng
+document.getElementById('lightboxModal2').addEventListener('hide.bs.modal', closeModal);
+// ... existing code ...
+

@@ -5,13 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54457fa7-b39b-4e35-bc7a-8ead73accfb6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/promotionShoes/image1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/promotionShoes.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/style/promotionShoes.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confirmPass.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forgetPass.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forgetWithAuthCode.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/register.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/component/navigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/component/navigation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/listShoeAdidas.html" beforeDir="false" afterPath="$PROJECT_DIR$/listShoeAdidas.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/listShoeAdidas.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/listShoeAdidas.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/popup.js" beforeDir="false" afterPath="$PROJECT_DIR$/component/popup.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loginWithAuthCode.html" beforeDir="false" afterPath="$PROJECT_DIR$/loginWithAuthCode.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/promotionShoes.html" beforeDir="false" afterPath="$PROJECT_DIR$/promotionShoes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script/lightBox.js" beforeDir="false" afterPath="$PROJECT_DIR$/script/lightBox.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/support.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/support.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,28 +48,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;JavaScript Debug.statusShoes.html.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;disable.download.node.interpreter.editor.notification&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;TranQuocVan&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Project_E-CommerceWeb/assets/promotionShoes&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "JavaScript Debug.statusShoes.html.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "disable.download.node.interpreter.editor.notification": "true",
+    "git-widget-placeholder": "TranQuocVan",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "D:/Project_E-CommerceWeb",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Project_E-CommerceWeb\assets\promotionShoes" />
       <recent name="D:\Project_E-CommerceWeb" />
+      <recent name="D:\Project_E-CommerceWeb\assets\promotionShoes" />
       <recent name="D:\Project_E-CommerceWeb\component" />
       <recent name="D:\Project_E-CommerceWeb\assets\shoes" />
       <recent name="D:\Project_E-CommerceWeb\assets" />
@@ -167,6 +173,7 @@
       <workItem from="1732802165476" duration="5626000" />
       <workItem from="1732808092054" duration="237000" />
       <workItem from="1732939626122" duration="8181000" />
+      <workItem from="1733065162601" duration="4787000" />
     </task>
     <servers />
   </component>
@@ -189,7 +196,6 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/component/navigation.js</url>
-          <line>1</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
