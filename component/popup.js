@@ -69,9 +69,11 @@ popUps.forEach((popUp) => {
                     </div>
                 </div>
                 <div style="padding-bottom: 20px ;">
+                <a href="shoppingCart.html">
                     <button id="btnPopup">
                         Xem Giỏ hàng
                     </button>
+                    </a>
                 </div>`;
 
         div.style.animation = `popUpDown ${timeAnimation}s`;
