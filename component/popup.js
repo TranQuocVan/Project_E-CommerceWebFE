@@ -77,9 +77,15 @@ popUps.forEach((popUp) => {
         div.style.animation = `popUpDown ${timeAnimation}s`;
         underNavigation.appendChild(div);
 
+        const timeDelay = timeAnimation * 1000 + 1000;
+
         setTimeout(() => {
             div.style.animation = `popUpUp ${timeAnimation}s forwards`;
-        }, timeAnimation * 1000);
+        }, timeDelay);
+
+        setTimeout(() => {
+            div.style.display = 'none';;
+        }, timeDelay + timeAnimation * 1000);
 
 
 
