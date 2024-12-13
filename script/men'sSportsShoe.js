@@ -1,7 +1,4 @@
-//
 
-// Lắng nghe sự kiện click vào nút tạm dừng
-// Lắng nghe sự kiện cuộn trang
 $(window).on('scroll', function () {
     var scroll = $(window).scrollTop(); // Lấy vị trí cuộn trang
 
@@ -27,7 +24,6 @@ body.addEventListener('scroll', function () {
     if (scale < 0.8) {
         scale = 0.8;
     }
-    console.log(scale);
 
     document.querySelector('.video').style.transform = 'scale(' + scale + ')';
 });

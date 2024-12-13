@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>silk road</title>
+    <link rel="icon" type="image/svg" href="assets/logo2.svg">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <link rel="stylesheet" href="style/slider.css">
+    <link rel="stylesheet" href="style/navigation.css">
+    <link rel="stylesheet" href="style/index.css">
+    <link rel="stylesheet" href="style/global.css">
+    <link rel="stylesheet" href="style/styleComponent/lightBox.css">
+    <link rel="stylesheet" href="style/promotionShoes.css">
+
+
+</head>
+
+<body>
+
+<header>
+    <nav></nav>
+    <div class="under-navigation">
+        <div style="padding-top: 100px;" class="container">
+            <div class="row mb-5">
+                <div class="col-md-12">
+                    <span class="titleHeader">Ưu đãi.</span>
+                    <span style="color: #6e6e73;" class="titleSubHeader">Tuyệt vời cho những tín đồ <br>
+                             đam mê giày dép tại Silk Road.</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row" id="best-sale">
+                <!-- Các item -->
+                <div class="col-6 col-md-4 col-lg-2 mb-4">
+                    <div class="best-saler-item text-center">
+                        <a href="men'sSportsShoes.html">
+                            <img src="assets/bestSellerHome/image1.png" alt="Men's Sports Shoes" class="img-fluid">
+                        </a>
+                        <span>Nike Blue 0175</span>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-2 mb-4">
+                    <div class="best-saler-item text-center">
+                        <a href="womenShoes.html">
+                            <img src="assets/bestSellerHome/image2.png" alt="" class="img-fluid">
+                        </a>
+                        <span>Nike Pink White 6789</span>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-2 mb-4">
+                    <div class="best-saler-item text-center">
+                        <img src="assets/bestSellerHome/image3.png" alt="" class="img-fluid">
+                        <span>Giày cao gót nữ ro41</span>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-2 mb-4">
+                    <div class="best-saler-item text-center">
+                        <img src="assets/bestSellerHome/image4.png" alt="" class="img-fluid">
+                        <span>Giày c.an nam 113</span>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-2 mb-4">
+                    <div class="best-saler-item text-center">
+                        <img src="assets/bestSellerHome/image6.png" alt="" class="img-fluid">
+                        <span>Sandanl Brown SR</span>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-2 mb-4">
+                    <div class="best-saler-item text-center">
+                        <img src="assets/bestSellerHome/image7.png" alt="" class="img-fluid">
+                        <span>Sandanl Version 001</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="padding-top: 100px;" class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <span class="titleHeaderMin">Ưu đãi đặc biệt. </span>
+                    <span style="color: #6e6e73;" class="titleSubHeaderMin">Chỉ diễn ra trong thời
+                            gian khuyến mãi.</span>
+                </div>
+            </div>
+        </div>
+
+        <div style="padding-top: 70px;" class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <div id="slide">
+                        <div class="item" data-bs-toggle="modal" data-bs-target="#lightboxModal">
+                            <img src="assets/homeImages/1.png" alt="">
+                        </div>
+                        <div class="item" data-bs-toggle="modal" data-bs-target="#lightboxModal">
+                            <img src="assets/homeImages/2.png" alt="">
+                        </div>
+                        <div class="item" data-bs-toggle="modal" data-bs-target="#lightboxModal" data-price="700.000đ">
+                            <img src="assets/homeImages/3.png" alt="">
+                        </div>
+                        <div class="item" data-bs-toggle="modal" data-bs-target="#lightboxModal" data-price="800.000đ">
+                            <img src="assets/homeImages/4.png" alt="">
+                        </div>
+                        <div class="item" data-bs-toggle="modal" data-bs-target="#lightboxModal" data-price="900.000đ">
+                            <img src="assets/homeImages/5.png" alt="">
+                        </div>
+                        <div class="item" data-bs-toggle="modal" data-bs-target="#lightboxModal" data-price="1000.000đ">
+                            <img src="assets/homeImages/6.png" alt="">
+                        </div>
+                        <div class="item" data-bs-toggle="modal" data-bs-target="#lightboxModal" data-price="1100.000đ">
+                            <img src="assets/homeImages/1.png" alt="">
+                        </div>
+
+                        <button class="btnSlide" id="next">
+                            <i class="fa-solid fa-chevron-right"></i>
+                        </button>
+                        <button class="btnSlide" style="display: none;" id="prev">
+                            <i class="fa-solid fa-chevron-left"></i>
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container-xxl py-5 category">
+            <div class="container">
+                <div class="text-center wow fadeInUp mt-5" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
+                    <span class="titleHeader">Sản phẩm khuyến mãi</span>
+                </div>
+                <div class="row g-3 mt-5">
+                    <div class="col-lg-7 col-md-6">
+                        <div class="row g-3">
+                            <div class="col-lg-12 col-md-12 wow zoomIn" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: zoomIn;">
+                                <a class="position-relative d-block overflow-hidden" href="detailShoes.html">
+                                    <img class="img-fluid" src="assets/bestSellerHome/image1.png" alt="">
+                                    <div class="text-center position-absolute bottom-0 end-0 py-2 px-3" style="margin: 1px;">
+
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: zoomIn;">
+                                <a class="position-relative d-block overflow-hidden" href="detailShoes.html">
+                                    <img class="img-fluid" src="assets/bestSellerHome/image5.png" alt="">
+
+                                </a>
+                            </div>
+                            <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: zoomIn;">
+                                <a class="position-relative d-block overflow-hidden" href="detailShoes.html">
+                                    <img class="img-fluid" src="assets/bestSellerHome/image7.png" alt="">
+
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-md-6 wow zoomIn" data-wow-delay="0.7s" style="min-height: 350px; visibility: visible; animation-delay: 0.7s; animation-name: zoomIn;">
+                        <a class="position-relative d-block h-100 overflow-hidden" href="detailShoes.html">
+                            <img class="img-fluid position-absolute w-100 h-100" src="assets/bestSellerHome/image4.png " alt="" style="object-fit: cover;">
+                            <div class=" text-center position-absolute bottom-0 end-0 py-2 px-3" style="margin:  1px;">
+
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+        <div class="container">
+            <div class="row">
+                <div id="scroll" style="position: relative;  margin-top: 70px;" class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h3 style="font-weight: 700; padding: 0 10px;">Hỗ trợ tại đây.
+                                <span style="color: #6e6e73;">Ngay khi bạn muốn,
+                                        mọi việc bạn cần.</span>
+                            </h3>
+
+                            <div style="padding-top: 10px;" class="slider">
+
+                                <div class="form">
+                                    <div class="item support">
+                                        <div class="content ">
+                                            <div style="position: absolute; top: 5%; font-size: 28px;font-weight: 700; left: 50%; transform: translateX(-50%); width: 90%;" class="header">
+                                                <p>Dịch vụ và hỗ trợ. Chúng tôi luôn sẵn sàng hỗ trợ.</p>
+                                            </div>
+                                            <a href="support.html">
+                                                <img src="assets/supporImgs/store-card-50-genius-202108.jpg" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="item support">
+                                        <div class="content ">
+                                            <div style="position: absolute; top: 10%; font-size: 28px;font-weight: 700; left: 50%; transform: translateX(-50%); width: 90%;" class="header">
+                                                <p>Mua hàng với tư vấn trực tiếp từ Chuyên Gia trực tuyến. </p>
+                                            </div>
+                                            <img src="assets/supporImgs/store-card-50-specialist-help-202309.jpg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!--Light box1 -->
+<div class="modal fade" id="lightboxModal" tabindex="0" aria-labelledby="lightboxModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-body">
+                <div class="lightbox-content">
+                    <!-- Nút Mua ngay -->
+                    <div class="buy-button-container">
+                        <a href="detailShoes.html">
+                            <button class="mx-auto d-flex justify-content-center align-items-center rounded-pill order-button cart-box" style="width: 250px;">
+                                <i class="fa-solid fa-eye mx-2"></i>
+                                <span class="fw-bold">Xem ngay</span>
+                            </button>
+                        </a>
+                    </div>
+
+
+                    <!-- Hiển thị ảnh -->
+                    <div class="modal-image-container">
+                        <img id="modalImage" src="" class="img-fluid" alt="Full image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--Light box2 -->
+
+<div class="modal fade" id="lightboxModal2" tabindex="-1" aria-labelledby="lightboxModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="lightbox-content">
+                    <!-- Nút Mua ngay -->
+                    <div class="buy-button-container2">
+                        <a href="shoppingCart.html">
+                            <button class="mx-auto d-flex justify-content-center align-items-center rounded-pill order-button cart-box" style="width: 250px;">
+                                <i class="fa-solid fa-cart-shopping mx-2"></i>
+                                <span class="fw-bold">Thêm vào giỏ hàng</span>
+                            </button>
+                        </a>
+                    </div>
+
+
+                    <!-- Hiển thị ảnh -->
+                    <div class="modal-image-container">
+                        <img id="modalImage2" src="" class="img-fluid" alt="Full image">
+                        <div class="modal-price" id="modalPrice2">Giá: </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<footer>
+</footer>
+
+<script src="component/navigation.js"></script>
+<script src="component/footer.js"></script>
+<script src="script/scroll.js"></script>
+<script src="component/lightBox_index.js"></script>
+<script>
+</script>
+
+
+
+
+
+</body>
+
+</html>
+

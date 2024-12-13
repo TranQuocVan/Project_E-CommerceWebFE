@@ -5,16 +5,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Thêm Sản Phẩm - Quản Trị</title>
+    <link rel="icon" type="image/svg" href="assets/logo2.svg">
+    <!-- Bootstrap CSS -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
-    <link rel="stylesheet" href="styler/global.css">
-    <link rel="stylesheet" href="styler/navigation.css">
-    <link rel="stylesheet" href="styler/adminAddProduct.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style/global.css">
+    <link rel="stylesheet" href="style/navigation.css">
+    <link rel="stylesheet" href="style/adminAddProduct.css">
 
 </head>
+<style>
+    .form-group {
+        margin-bottom: 15px;
+    }
+    
+    .preview-img {
+        max-width: 100px;
+        margin-right: 10px;
+    }
+    
+    .size-group label {
+        margin-right: 10px;
+    }
+    
+    .size-group button {
+        margin-top: 5px;
+    }
+</style>
 
 <body>
     <header>
@@ -23,20 +41,32 @@
             <div class="container">
                 <h1 class="mt-5">Thêm Sản Phẩm</h1>
                 <form id="productForm">
+                    <!-- Product Name -->
                     <div class="form-group">
                         <label for="productName">Tên sản phẩm:</label>
                         <input type="text" class="form-control" id="productName" name="productName" required>
                     </div>
+
+                    <!-- Product Category -->
                     <div class="form-group">
                         <label for="productCategory">Loại hàng:</label>
-                        <input type="text" class="form-control" id="productCategory" name="productCategory" required>
+                        <select class="form-control" id="productCategory" name="productCategory" required>
+                            <option value="Loại A">Loại A</option>
+                            <option value="Loại B">Loại B</option>
+                            <option value="Loại C">Loại C</option>
+                            <option value="new">Thêm loại hàng mới</option>
+                        </select>
+                        <input type="text" class="form-control mt-2 d-none" id="newCategory" name="newCategory" placeholder="Nhập loại hàng mới">
                     </div>
+
+                    <!-- Product Images -->
                     <div class="form-group">
                         <label for="productImages">Ảnh sản phẩm:</label>
-                        <input type="file" class="form-control-file" id="productImages" name="productImages" multiple
-                            required>
+                        <input type="file" class="form-control-file" id="productImages" name="productImages" multiple required>
                         <div id="imagePreview" class="mt-2"></div>
                     </div>
+
+                    <!-- Size and Quantity Inputs -->
                     <div id="sizesContainer">
                         <div class="form-group size-group">
                             <label>Size:</label>
@@ -47,25 +77,28 @@
                         </div>
                     </div>
                     <button type="button" class="btn btn-primary" onclick="addSize()">Thêm Size</button>
+
+                    <!-- Submit Button -->
                     <div class="form-group mt-3">
                         <button type="submit" class="btn btn-success">Thêm Sản Phẩm</button>
                     </div>
                 </form>
-
             </div>
         </div>
     </header>
-    <footer>
 
-    </footer>
+    <footer></footer>
 
-    <script src="script/adminAddProduct.js">
+    <!-- jQuery and Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
-    </script>
-
-
+    <!-- Custom JS -->
     <script src="component/navigation.js"></script>
     <script src="component/footer.js"></script>
+
+    <script src="script/adminAddProduct.js"></script>
 </body>
 
 </html>

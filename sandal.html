@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoes</title>
+    <link rel="icon" type="image/svg" href="assets/logo2.svg">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style/slider.css">
+    <link rel="stylesheet" href="style/navigation.css">
+    <link rel="stylesheet" href="style/global.css">
+    <link rel="stylesheet" href="style/shoes.css">
+
+</head>
+
+<body>
+    <header>
+
+        <nav></nav>
+        <div class="under-navigation">
+
+            <div class="container-fluid mt-5 text-center header">
+                <div class="row justify-content-center">
+                    <div class="col-6 col-md-2 my-3">
+                        <img src="assets/shoes/1.png" class="img-fluid" alt="adidas">
+                        <p>Giày thể thao nam</p>
+                    </div>
+                    <div class="col-6 col-md-2 my-3">
+                        <img src="assets/shoes/2.png" class="img-fluid" alt="jordan">
+                        <p>Giày thể thao nữ</p>
+                    </div>
+                    <div class="col-6 col-md-2 my-3">
+                        <img src="assets/shoes/3.png" class="img-fluid" alt="nike">
+                        <p>Giày công sở</p>
+                    </div>
+                    <div class="col-6 col-md-2 my-3">
+                        <img src="assets/shoes/4.png" class="img-fluid" alt="puma">
+                        <p>Giày cao gót</p>
+                    </div>
+
+                    <div class="col-6 col-md-2 my-3">
+                        <img src="assets/shoes/5.png" class="img-fluid" alt="converse">
+                        <p>Giày trẻ em</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-fluid mt-5 text-center content">
+                <div class="title d-flex justify-content-between">
+                    <div class=" mx-5 fw-bold text-xl-start text-first">
+                        <h1 style=>Dép</h1>
+                    </div>
+                    <div class="mx-5 fw-bold text-xl-start text-second ">
+                        <h2>phong cách năng động, quyến rũ <br> cho bạn - tỏa sáng theo phong cách riêng. </h2>
+                    </div>
+                </div>
+                <div class=" video container-fluid mt-5 text-center">
+                    <div class="row justify-content-center">
+                        <div class="col-12 col-md-8 col-lg-6">
+                            <div class="video-container">
+                                <video id="videoElement" autoplay muted loop class="w-100 h-auto">
+                  <source src="assets/video/sandal/1.mp4" type="video/mp4">
+                </video>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div style="padding-top: 100px;" class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <span class="titleHeaderMin">Ưu đãi đặc biệt. </span>
+                        <span style="color: #6e6e73;" class="titleSubHeaderMin">Chỉ diễn ra trong thời
+                            gian khuyến mãi.</span>
+                    </div>
+                </div>
+            </div>
+
+            <div style="padding-top: 70px;" class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div id="slide">
+                            <div class="item" data-bs-toggle="modal" data-bs-target="#lightboxModal">
+                                <img src="assets/homeImages/1.png" alt="">
+                            </div>
+                            <div class="item" data-bs-toggle="modal" data-bs-target="#lightboxModal">
+                                <img src="assets/homeImages/2.png" alt="">
+                            </div>
+                            <div class="item" data-bs-toggle="modal" data-bs-target="#lightboxModal" data-price="700.000đ">
+                                <img src="assets/homeImages/3.png" alt="">
+                            </div>
+                            <div class="item" data-bs-toggle="modal" data-bs-target="#lightboxModal" data-price="800.000đ">
+                                <img src="assets/homeImages/4.png" alt="">
+                            </div>
+                            <div class="item" data-bs-toggle="modal" data-bs-target="#lightboxModal" data-price="900.000đ">
+                                <img src="assets/homeImages/5.png" alt="">
+                            </div>
+                            <div class="item" data-bs-toggle="modal" data-bs-target="#lightboxModal" data-price="1000.000đ">
+                                <img src="assets/homeImages/6.png" alt="">
+                            </div>
+                            <div class="item" data-bs-toggle="modal" data-bs-target="#lightboxModal" data-price="1100.000đ">
+                                <img src="assets/homeImages/1.png" alt="">
+                            </div>
+
+                            <button class="btnSlide" id="next">
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </button>
+                            <button class="btnSlide" style="display: none;" id="prev">
+                                <i class="fa-solid fa-chevron-left"></i>
+                            </button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div style="padding-top: 100px;" class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <span class="titleHeaderMin">Số lượng mua nhiều nhất. </span>
+                        <span style="color: #6e6e73;" class="titleSubHeaderMin">Khẳng định xu hướng, chất lượng vượt trội.</span>
+                    </div>
+                </div>
+            </div>
+
+
+            <div style="padding-top: 70px;" class="container-fluid">
+                <div class="row">
+
+                    <div class="col-md-12">
+                        <div id="slide2">
+
+                            <div class="item" data-bs-toggle="modal" data-bs-target="#lightboxModal2" data-price="500.000đ">
+                                <img src="assets/homeImages/7.png" alt="">
+                            </div>
+                            <div class="item" data-bs-toggle="modal" data-bs-target="#lightboxModal2" data-price="799.000đ">
+                                <img src="assets/homeImages/8.png" alt="">
+                            </div>
+                            <div class="item" data-bs-toggle="modal" data-bs-target="#lightboxModal2" data-price="900.000đ">
+                                <img src="assets/homeImages/9.png" alt="">
+                            </div>
+                            <div class="item" data-bs-toggle="modal" data-bs-target="#lightboxModal2" data-price="300.000đ">
+                                <img src="assets/homeImages/10.png" alt="">
+                            </div>
+                            <div class="item" data-bs-toggle="modal" data-bs-target="#lightboxModal2" data-price="799.000đ">
+                                <img src="assets/homeImages/11.png" alt="">
+                            </div>
+                            <div class="item" data-bs-toggle="modal" data-bs-target="#lightboxModal2">
+                                <img src="assets/homeImages/12.png" alt="" data-price="999.000đ">
+                            </div>
+                            <div class="item" data-bs-toggle="modal" data-bs-target="#lightboxModal">
+                                <img src="assets/homeImages/9.png" alt="">
+                            </div>
+
+                            <button class="btnSlide" id="next2">
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </button>
+                            <button class="btnSlide" style="display: none;" id="prev2">
+                                <i class="fa-solid fa-chevron-left"></i>
+                            </button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container mt-5 introduce text-center">
+                <div class="title d-flex justify-content-between">
+                    <div class=" fw-bold text-xl-start text-first">
+                        <h1>Tìm hiểu về dép tại Silk Road.</h1>
+                    </div>
+                </div>
+
+                <div class="container-fluid learn-about d-flex justify-content-between align-items-center">
+                    <div class="row">
+                        <div class="container-fluid learn-about d-flex justify-content-between align-items-center">
+                            <div class="row">
+                                <div class="left col-12 col-md-5 my-3 mt-5 mx-5">
+                                    <h2>Chất lượng tuyệt đối</h2>
+                                    <span> Silk Road muốn mang đến cho khách hàng những sản phẩm không chỉ về mặt thẩm
+                    mỹ mà còn đảm bảo
+                    sự thoải mái và độ bền lâu dài, xứng đáng với tiêu chí "chất lượng tuyệt
+                    đối</span>
+                                    <img src="assets/shoes/learn_about1.png" class="img-fluid" alt=""> </img>
+                                </div>
+                                <div class="right col-12 col-md-5 my-3 mt-5 mx-5">
+                                    <h2>Ưu đãi hấp dẫn</h2>
+                                    <span> Silk Road luôn luôn cập nhật những ưu đãi, khuyến mãi hấp dẫn để tri ân những
+                    khách hàng thân
+                    quen và cả những khách hàng mới lần đầu ghé thăm. </span>
+                                    <img src="assets/shoes/learn_about4.png" class="img-fluid" alt=""> </img>
+
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="container-fluid learn-about d-flex justify-content-between align-items-center">
+                            <div class="row">
+                                <div class="left col-12 col-md-5 my-3 mt-5 mx-5">
+                                    <h2>Chính sách bảo hành</h2>
+                                    <span> Silk Road muốn mang đến cho khách hàng những trải nghiệm tuyệt vời, đảm bảo
+                    đổi trả trong vòng
+                    1 tuần nếu có vấn đề về kích thước, màu sắc của sản phẩm.</span>
+                                    <img src="assets/shoes/learn_about3.png" class="img-fluid" alt=""> </img>
+                                </div>
+                                <div class="right col-12 col-md-5 my-3 mt-5 mx-5">
+                                    <h2>Phong cách hiện đại</h2>
+                                    <span> Silk Road đem đến cho khách hàng những mẫu giày mới nhất, hiện đại nhất, xu
+                    hướng nhất. Luôn
+                    luôn cập nhật một cách nhanh chóng các dòng sản phẩm thương hiệu nổi tiếng.
+                  </span>
+                                    <img src="assets/shoes/learn_about2.png" class="img-fluid" alt=""> </img>
+
+
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+    </header>
+
+
+    <footer>
+
+    </footer>
+
+    <script src="component/navigation.js"></script>
+    <script src="component/footer.js"></script>
+    <script src="script/scroll.js"></script>
+    <script src="script/lightBox.js"></script>
+    <script src="script/shoes.js"></script>
+
+
+</body>
+
+</html>

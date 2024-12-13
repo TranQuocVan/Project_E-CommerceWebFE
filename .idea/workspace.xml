@@ -5,12 +5,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54457fa7-b39b-4e35-bc7a-8ead73accfb6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/admin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adminOrderManagement.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adminUserManagement.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adminVoucher.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/User.html" beforeDir="false" afterPath="$PROJECT_DIR$/User.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adminAddProduct.html" beforeDir="false" afterPath="$PROJECT_DIR$/adminAddProduct.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adminProductManagement.html" beforeDir="false" afterPath="$PROJECT_DIR$/adminProductManagement.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/confirmPass.html" beforeDir="false" afterPath="$PROJECT_DIR$/confirmPass.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/detailShoes.html" beforeDir="false" afterPath="$PROJECT_DIR$/detailShoes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forgetPass.html" beforeDir="false" afterPath="$PROJECT_DIR$/forgetPass.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forgetWithAuthCode.html" beforeDir="false" afterPath="$PROJECT_DIR$/forgetWithAuthCode.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/script/lightBox.js" beforeDir="false" afterPath="$PROJECT_DIR$/script/lightBox.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/script/scroll.js" beforeDir="false" afterPath="$PROJECT_DIR$/script/scroll.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styler/lightBox.css" beforeDir="false" afterPath="$PROJECT_DIR$/styler/lightBox.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styler/slider.css" beforeDir="false" afterPath="$PROJECT_DIR$/styler/slider.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/listProduct.html" beforeDir="false" afterPath="$PROJECT_DIR$/listProduct.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/listShoeAdidas.html" beforeDir="false" afterPath="$PROJECT_DIR$/listShoeAdidas.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loginWithAuthCode.html" beforeDir="false" afterPath="$PROJECT_DIR$/loginWithAuthCode.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/men'sSportsShoes.html" beforeDir="false" afterPath="$PROJECT_DIR$/men'sSportsShoes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/menSandal.html" beforeDir="false" afterPath="$PROJECT_DIR$/menSandal.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/promotionShoes.html" beforeDir="false" afterPath="$PROJECT_DIR$/promotionShoes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sandal.html" beforeDir="false" afterPath="$PROJECT_DIR$/sandal.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/script/login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shoes.html" beforeDir="false" afterPath="$PROJECT_DIR$/shoes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shoppingCart.html" beforeDir="false" afterPath="$PROJECT_DIR$/shoppingCart.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/statusShoes.html" beforeDir="false" afterPath="$PROJECT_DIR$/statusShoes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/support.html" beforeDir="false" afterPath="$PROJECT_DIR$/support.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/womenSandals.html" beforeDir="false" afterPath="$PROJECT_DIR$/womenSandals.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/womenShoes.html" beforeDir="false" afterPath="$PROJECT_DIR$/womenShoes.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,9 +45,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="TypeScript File" />
+        <option value="HTML File" />
         <option value="CSS File" />
         <option value="JavaScript File" />
-        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -41,30 +65,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "disable.download.node.interpreter.editor.notification": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "D:/Project_E-CommerceWeb/assets/men'sSportShoe",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JavaScript Debug.statusShoes.html.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;disable.download.node.interpreter.editor.notification&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;TranQuocVan&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Project_E-CommerceWeb&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Project_E-CommerceWeb\assets\men'sSportShoe" />
-      <recent name="D:\Project_E-CommerceWeb\assets\poster" />
-      <recent name="D:\Project_E-CommerceWeb\assets\shoeMens" />
-      <recent name="D:\Project_E-CommerceWeb\assets\background" />
-      <recent name="D:\Project_E-CommerceWeb\assets\supportImages" />
+      <recent name="D:\Project_E-CommerceWeb" />
+      <recent name="D:\Project_E-CommerceWeb\assets\promotionShoes" />
+      <recent name="D:\Project_E-CommerceWeb\component" />
+      <recent name="D:\Project_E-CommerceWeb\assets\shoes" />
+      <recent name="D:\Project_E-CommerceWeb\assets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Project_MidWeb\img\shoe_men" />
@@ -119,10 +144,84 @@
       <workItem from="1731422164849" duration="3160000" />
       <workItem from="1731425394849" duration="160000" />
       <workItem from="1731425563205" duration="3593000" />
+      <workItem from="1731517146555" duration="187000" />
+      <workItem from="1731517370317" duration="67000" />
+      <workItem from="1731655450608" duration="57000" />
+      <workItem from="1731657677133" duration="5587000" />
+      <workItem from="1731663561066" duration="8000" />
+      <workItem from="1731663570198" duration="84000" />
+      <workItem from="1731663723561" duration="653000" />
+      <workItem from="1731667818478" duration="22000" />
+      <workItem from="1731683899828" duration="2844000" />
+      <workItem from="1731746311606" duration="8437000" />
+      <workItem from="1731834775514" duration="2443000" />
+      <workItem from="1731837352433" duration="13000" />
+      <workItem from="1731837424873" duration="3464000" />
+      <workItem from="1731852702804" duration="247000" />
+      <workItem from="1731894075185" duration="662000" />
+      <workItem from="1731927779101" duration="85000" />
+      <workItem from="1731938673018" duration="64000" />
+      <workItem from="1731938744712" duration="4469000" />
+      <workItem from="1731989856082" duration="2197000" />
+      <workItem from="1732000813086" duration="6000" />
+      <workItem from="1732026888911" duration="1120000" />
+      <workItem from="1732028062343" duration="3943000" />
+      <workItem from="1732119767102" duration="4000" />
+      <workItem from="1732119925477" duration="1684000" />
+      <workItem from="1732157982051" duration="109000" />
+      <workItem from="1732159565586" duration="125000" />
+      <workItem from="1732182594888" duration="5903000" />
+      <workItem from="1732202184858" duration="3550000" />
+      <workItem from="1732205996852" duration="960000" />
+      <workItem from="1732286088029" duration="5476000" />
+      <workItem from="1732542756192" duration="7929000" />
+      <workItem from="1732595012088" duration="3351000" />
+      <workItem from="1732600066727" duration="1057000" />
+      <workItem from="1732632294990" duration="4565000" />
+      <workItem from="1732637292579" duration="3457000" />
+      <workItem from="1732692961471" duration="6747000" />
+      <workItem from="1732714989024" duration="2676000" />
+      <workItem from="1732718486539" duration="1385000" />
+      <workItem from="1732720177759" duration="3324000" />
+      <workItem from="1732765029761" duration="65000" />
+      <workItem from="1732772804676" duration="3747000" />
+      <workItem from="1732776637261" duration="172000" />
+      <workItem from="1732784663109" duration="44000" />
+      <workItem from="1732802165476" duration="5626000" />
+      <workItem from="1732808092054" duration="237000" />
+      <workItem from="1732939626122" duration="8181000" />
+      <workItem from="1733065162601" duration="4787000" />
+      <workItem from="1733101573786" duration="5795000" />
+      <workItem from="1733151605045" duration="371000" />
+      <workItem from="1733151989941" duration="268000" />
+      <workItem from="1733153333160" duration="1969000" />
+      <workItem from="1733198221201" duration="3287000" />
+      <workItem from="1733385284006" duration="290000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/component/navigation.js</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

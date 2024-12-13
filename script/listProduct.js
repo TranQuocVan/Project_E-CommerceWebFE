@@ -1,5 +1,4 @@
 const imgProductListProdcts = document.querySelectorAll('.product-listProdct img');
-console.log(imgProductListProdcts);
 let clearTimeOuts = [];
 let flags = [];
 
@@ -54,3 +53,4 @@ Array.from(imgProductListProdcts).forEach((img, index) => {
 
 
 });
+
